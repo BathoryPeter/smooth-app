@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
-  <meta name="description" content="API docs for the getChildren method from the UserPreferencesPrices class, for the Dart programming language.">
-  <title>getChildren method - UserPreferencesPrices class - user_preferences_prices library - Dart API</title>
+  <meta name="description" content="API docs for the runHeaderAction method from the UserPreferencesPrices class, for the Dart programming language.">
+  <title>runHeaderAction method - UserPreferencesPrices class - user_preferences_prices library - Dart API</title>
 
 
   
@@ -31,9 +31,9 @@
     <li><a href="../../index.html">smooth_app</a></li>
     <li><a href="../../file-___home_runner_work_smooth-app_smooth-app_packages_smooth_app_lib_pages_preferences_user_preferences_prices/file-___home_runner_work_smooth-app_smooth-app_packages_smooth_app_lib_pages_preferences_user_preferences_prices-library.html">user_preferences_prices</a></li>
     <li><a href="../../file-___home_runner_work_smooth-app_smooth-app_packages_smooth_app_lib_pages_preferences_user_preferences_prices/UserPreferencesPrices-class.html">UserPreferencesPrices</a></li>
-    <li class="self-crumb">getChildren method</li>
+    <li class="self-crumb">runHeaderAction method</li>
   </ol>
-  <div class="self-name">getChildren</div>
+  <div class="self-name">runHeaderAction</div>
   <form class="search navbar-right" role="search">
     <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
   </form>
@@ -44,7 +44,7 @@
 
   <div id="dartdoc-main-content" class="main-content">
       <div>
-<h1><span class="kind-method">getChildren</span> method 
+<h1><span class="kind-method">runHeaderAction</span> method 
     <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
 </h1></div>
 
@@ -56,8 +56,8 @@
   </ol>
 </div>
 
-<span class="returntype"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a></span>
-<span class="name ">getChildren</span>(<wbr>)
+<span class="returntype"><a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+<span class="name ">runHeaderAction</span>(<wbr>)
 
       
 
@@ -69,100 +69,9 @@
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
   <pre class="language-dart"><code class="language-dart">@override
-List&lt;UserPreferencesItem&gt; getChildren() {
-  final String userId = ProductQuery.getWriteUser().userId;
-  final bool isConnected = OpenFoodAPIConfiguration.globalUser != null;
-  return &lt;UserPreferencesItem&gt;[
-    if (isConnected)
-      _getListTile(
-        PriceUserButton.showUserTitle(
-          user: userId,
-          context: context,
-        ),
-        () async =&gt; PriceUserButton.showUserPrices(
-          user: userId,
-          context: context,
-        ),
-        CupertinoIcons.money_dollar_circle,
-        lazyCounter: LazyCounterPrices(userId),
-      ),
-    if (isConnected)
-      _getListTile(
-        appLocalizations.user_search_proofs_title,
-        () async =&gt; Navigator.of(context).push(
-          MaterialPageRoute&lt;void&gt;(
-            builder: (BuildContext context) =&gt; const PricesProofsPage(
-              selectProof: false,
-            ),
-          ),
-        ),
-        Icons.receipt,
-      ),
-    _getListTile(
-      appLocalizations.prices_add_a_receipt,
-      () async =&gt; ProductPriceAddPage.showProductPage(
-        context: context,
-        proofType: ProofType.receipt,
-      ),
-      Icons.add_shopping_cart,
-    ),
-    _getListTile(
-      appLocalizations.prices_add_price_tags,
-      () async =&gt; ProductPriceAddPage.showProductPage(
-        context: context,
-        proofType: ProofType.priceTag,
-      ),
-      Icons.add_shopping_cart,
-    ),
-    _getListTile(
-      appLocalizations.all_search_prices_latest_title,
-      () async =&gt; Navigator.of(context).push(
-        MaterialPageRoute&lt;void&gt;(
-          builder: (BuildContext context) =&gt; PricesPage(
-            GetPricesModel(
-              parameters: GetPricesParameters()
-                ..orderBy = &lt;OrderBy&lt;GetPricesOrderField&gt;&gt;[
-                  const OrderBy&lt;GetPricesOrderField&gt;(
-                    field: GetPricesOrderField.created,
-                    ascending: false,
-                  ),
-                ]
-                ..pageSize = GetPricesModel.pageSize
-                ..pageNumber = 1,
-              displayOwner: true,
-              displayProduct: true,
-              uri: OpenPricesAPIClient.getUri(
-                path: &#39;prices&#39;,
-                uriHelper: ProductQuery.uriPricesHelper,
-              ),
-              title: appLocalizations.all_search_prices_latest_title,
-              lazyCounterPrices: const LazyCounterPrices(null),
-            ),
-          ),
-        ),
-      ),
-      CupertinoIcons.money_dollar_circle,
-      lazyCounter: const LazyCounterPrices(null),
-    ),
-    _getListTile(
-      appLocalizations.all_search_prices_top_user_title,
-      () async =&gt; Navigator.of(context).push(
-        MaterialPageRoute&lt;void&gt;(
-          builder: (BuildContext context) =&gt; const PricesUsersPage(),
-        ),
-      ),
-      Icons.account_box,
-    ),
-    _getPriceListTile(
-      appLocalizations.all_search_prices_top_location_title,
-      &#39;locations&#39;,
-    ),
-    _getPriceListTile(
-      appLocalizations.all_search_prices_top_product_title,
-      &#39;products&#39;,
-    ),
-  ];
-}</code></pre>
+Future&lt;void&gt; runHeaderAction() async =&gt; AppNavigator.of(context).push(
+      AppRoutes.PREFERENCES(PreferencePageType.PRICES),
+    );</code></pre>
 </section>
 
 
@@ -179,7 +88,7 @@ List&lt;UserPreferencesItem&gt; getChildren() {
   <li><a href="../../index.html">smooth_app</a></li>
   <li><a href="../../file-___home_runner_work_smooth-app_smooth-app_packages_smooth_app_lib_pages_preferences_user_preferences_prices/file-___home_runner_work_smooth-app_smooth-app_packages_smooth_app_lib_pages_preferences_user_preferences_prices-library.html">user_preferences_prices</a></li>
   <li><a href="../../file-___home_runner_work_smooth-app_smooth-app_packages_smooth_app_lib_pages_preferences_user_preferences_prices/UserPreferencesPrices-class.html">UserPreferencesPrices</a></li>
-  <li class="self-crumb">getChildren method</li>
+  <li class="self-crumb">runHeaderAction method</li>
 </ol>
 
 
