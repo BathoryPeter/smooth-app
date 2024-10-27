@@ -123,6 +123,11 @@
               ? Colors.grey
               : myColorScheme.primary,
         ),
+        foregroundColor: WidgetStateProperty.resolveWith&lt;Color?&gt;(
+          (Set&lt;WidgetState&gt; states) =&gt; states.contains(WidgetState.disabled)
+              ? Colors.white
+              : myColorScheme.onPrimary,
+        ),
       ),
     ),
     floatingActionButtonTheme: FloatingActionButtonThemeData(
