@@ -16,22 +16,26 @@ class LaunchUrlHelper {
 
     if (url.startsWith(RegExp('http(s)?://[a-z]*.openfoodfacts.(net|org)'))) {
       AnalyticsHelper.trackOutlink(url: url);
-      GoRouter.of(context).go(url);
+      GoRouter.of(context).push(url);
     } else {
       return launchURL(url);
     }
   }
 
   /// Launches the url in an external browser.
-  static Future<void> launchURL(String url) async {
+  static Future<void> launchURL(
+    String url, {
+    LaunchMode? mode,
+  }) async {
     AnalyticsHelper.trackOutlink(url: url);
 
     try {
       await launchUrl(
         Uri.parse(url),
-        mode: Platform.isAndroid
-            ? LaunchMode.externalApplication
-            : LaunchMode.platformDefault,
+        mode: mode ??
+            (Platform.isAndroid
+                ? LaunchMode.externalApplication
+                : LaunchMode.platformDefault),
       );
     } catch (e) {
       throw 'Could not launch $url,Error: $e';
