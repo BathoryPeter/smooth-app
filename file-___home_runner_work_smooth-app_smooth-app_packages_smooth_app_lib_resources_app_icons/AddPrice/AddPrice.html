@@ -49,7 +49,7 @@
 </h1></div>
 
     <section class="multi-line-signature">
-      <span class="name ">AddPrice</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="-param-currency"><span class="type-annotation"><a href="../../file-___home_runner_work_smooth-app_smooth-app_packages_smooth_app_lib_resources_app_icons/Currency-class.html">Currency</a></span> <span class="parameter-name">currency</span></span></li>
+      <span class="name ">AddPrice</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="-param-currency"><span class="type-annotation">dynamic</span> <span class="parameter-name">currency</span></span></li>
 </ol>)
     </section>
 
@@ -59,18 +59,18 @@
     
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
-  <pre class="language-dart"><code class="language-dart">factory AddPrice(Currency currency) {
+  <pre class="language-dart"><code class="language-dart">factory AddPrice(off.Currency currency) {
   return switch (currency) {
-    Currency.GBP =&gt; const AddPrice.britishPound(),
-    Currency.USD =&gt; const AddPrice.dollar(),
-    Currency.EUR =&gt; const AddPrice.euro(),
-    Currency.RUB =&gt; const AddPrice.ruble(),
-    Currency.INR =&gt; const AddPrice.rupee(),
-    Currency.CHF =&gt; const AddPrice.swissFranc(),
-    Currency.TRY =&gt; const AddPrice.turkishLira(),
-    Currency.UAH =&gt; const AddPrice.ukrainianHryvnia(),
-    Currency.KRW =&gt; const AddPrice.won(),
-    Currency.JPY =&gt; const AddPrice.yen(),
+    off.Currency.GBP =&gt; const AddPrice.britishPound(),
+    off.Currency.USD =&gt; const AddPrice.dollar(),
+    off.Currency.EUR =&gt; const AddPrice.euro(),
+    off.Currency.RUB =&gt; const AddPrice.ruble(),
+    off.Currency.INR =&gt; const AddPrice.rupee(),
+    off.Currency.CHF =&gt; const AddPrice.swissFranc(),
+    off.Currency.TRY =&gt; const AddPrice.turkishLira(),
+    off.Currency.UAH =&gt; const AddPrice.ukrainianHryvnia(),
+    off.Currency.KRW =&gt; const AddPrice.won(),
+    off.Currency.JPY =&gt; const AddPrice.yen(),
     _ =&gt; const AddPrice.dollar(),
   };
 }</code></pre>
