@@ -499,7 +499,7 @@
     "@search": {
         "description": "Hint text of a search text input field"
     },
-    "search_store": "Search for a store",
+    "search_store": "ஒரு கடையைத் தேடுங்கள்",
     "@search_store": {
         "description": "Hint text of a search store text input field"
     },
