@@ -499,7 +499,7 @@
     "@search": {
         "description": "Hint text of a search text input field"
     },
-    "search_store": "Search for a store",
+    "search_store": "Nach einem Store suchen",
     "@search_store": {
         "description": "Hint text of a search store text input field"
     },
@@ -520,7 +520,7 @@
     "@front_photo": {
         "description": "Button label: For adding a picture of the front of a product"
     },
-    "outdated_image_accessibility_label": "{imageType} (this image may be outdated)",
+    "outdated_image_accessibility_label": "{imageType} (dieses Bild kann veraltet sein)",
     "@outdated_image_accessibility_label": {
         "description": "Accessibility label for images that are outdated (image type may be front/ingredients/nutrition…)",
         "placeholders": {
@@ -682,9 +682,9 @@
         "description": "Button at the end of new product page, that takes you to completed product"
     },
     "hey_incomplete_product_message": "Tippen Sie JETZT auf die Antwort auf 3 Fragen, um Nutri-Score, Eco-Score und Ultrahochverarbeitung (NOVA) zu berechnen!",
-    "hey_incomplete_product_message_beauty": "Tap now to answer 2 questions to help analyze this cosmetic!",
-    "hey_incomplete_product_message_pet_food": "Tap now to answer 3 questions to help analyze this pet food product!",
-    "hey_incomplete_product_message_product": "Tap now to help complete this product!",
+    "hey_incomplete_product_message_beauty": "Jetzt antippen, um 2 Fragen zu beantworten, die bei der Analyse dieses Kosmetikprodukts helfen!",
+    "hey_incomplete_product_message_pet_food": "Jetzt antippen, um 3 Fragen zu beantworten, die bei der Analyse dieses Tiernahrungsprodukts helfen!",
+    "hey_incomplete_product_message_product": "Jetzt antippen, um dieses Produkt zu vervollständigen!",
     "nutritional_facts_photo_uploaded": "Foto mit Nährwertangaben hochgeladen",
     "@nutritional_facts_photo_uploaded": {},
     "recycling_photo_button_label": "Foto mit Informationen zum Recycling",
@@ -784,7 +784,7 @@
             }
         }
     },
-    "product_image_outdated": "This image may be outdated",
+    "product_image_outdated": "Dieses Bild ist möglicherweise veraltet",
     "homepage_main_card_logo_description": "Willkommen bei Open Food Facts",
     "@homepage_main_card_logo_description": {
         "description": "Description for accessibility of the Open Food Facts logo on the homepage"
@@ -846,7 +846,7 @@
     "@product_search_same_category_short": {
         "description": "Button looking for the other products within the same category. Just the verb compare"
     },
-    "product_search_same_category_error": "This feature can only be used for products with a category.\n\nPlease edit the product to add a category.",
+    "product_search_same_category_error": "Diese Funktion kann nur für Produkte denen eine Kategorie zugeordnet ist genutzt werden.\n\nBitte bearbeiten Sie das Produkt, um eine Kategorie hinzuzufügen.",
     "@product_search_same_category_error": {
         "description": "Button looking for the other products within the same category. Just the verb compare"
     },
@@ -1584,7 +1584,7 @@
     "@user_list_button_new": {
         "description": "Short label of a 'create a new list' button"
     },
-    "user_list_empty_label": "Noch keine Liste vorhanden. Bitte beginnen Sie, eine zu erstellen",
+    "user_list_empty_label": "Noch keine Liste vorhanden!\nBitte beginnen Sie, eine zu erstellen.",
     "@user_list_empty_label": {
         "description": "Content displayed when there is no list"
     },
@@ -1620,7 +1620,7 @@
     "@user_list_name_error_same": {
         "description": "Validation error about the renamed name that is the same as the initial list name"
     },
-    "user_list_name_input_hint": "Name of the list",
+    "user_list_name_input_hint": "Name der Liste",
     "@user_list_name_input_hint": {
         "description": "A hint to indicate that the user should input a name of a list"
     },
@@ -1795,16 +1795,16 @@
         }
     },
     "product_type_label_food": "Nahrungsmittel",
-    "product_type_label_beauty": "Personal care",
+    "product_type_label_beauty": "Körperpflege",
     "product_type_label_pet_food": "Haustierfutter",
     "product_type_label_product": "Weitere",
-    "product_type_selection_title": "Product type",
-    "product_type_selection_subtitle": "Select the type of this product",
-    "product_type_selection_empty": "You need to select a product type first!",
+    "product_type_selection_title": "Produkttyp",
+    "product_type_selection_subtitle": "Wählen Sie die Art dieses Produkts",
+    "product_type_selection_empty": "Sie müssen zuerst einen Produkttyp auswählen!",
     "@product_type_selection_empty": {
         "description": "Error message about product type that needs to be set"
     },
-    "product_type_selection_already": "You cannot change the product type ({productType})!",
+    "product_type_selection_already": "Sie können den Produkttyp ({productType}) nicht ändern!",
     "@product_type_selection_already": {
         "description": "Error message about product type that cannot be set again",
         "placeholders": {
@@ -1822,7 +1822,7 @@
     "prices_add_a_price": "Preis hinzufügen",
     "prices_add_a_receipt": "Beleg hinzufügen",
     "prices_add_price_tags": "Preisschilder hinzufügen",
-    "prices_barcode_already": "This barcode ({barcode}) is already in the list!",
+    "prices_barcode_already": "Dieser Strichcode ({barcode}) ist bereits in der Liste enthalten!",
     "@prices_barcode_already": {
         "description": "Error message about barcode being already there",
         "placeholders": {
@@ -1842,7 +1842,7 @@
             }
         }
     },
-    "prices_barcode_enter": "Enter the Barcode",
+    "prices_barcode_enter": "Barcode eingeben",
     "prices_barcode_reader_action": "Barcodelesegerät",
     "prices_view_prices": "Preise anzeigen",
     "prices_product_accessibility_summary": "{count,plural, =1{1 Preis} other{{count} Preise}} für {product}",
@@ -1955,7 +1955,7 @@
     "prices_location_subtitle": "Laden",
     "prices_location_find": "Einen Laden finden",
     "prices_location_mandatory": "Sie müssen einen Laden auswählen!",
-    "prices_location_search_broader": "Couldn't find what you were looking for? Let's try a broader search!",
+    "prices_location_search_broader": "Sie haben nicht gefunden, wonach Sie gesucht haben? Versuchen Sie es mit einer allgemeineren Suchanfrage!",
     "prices_proof_subtitle": "Nachweis",
     "prices_proof_find": "Wählen Sie einen Nachweis",
     "prices_proof_receipt": "Kassenbon",
@@ -2318,7 +2318,7 @@
             }
         }
     },
-    "share_product_text_beauty": "Have a look at this product on Open Beauty Facts: {url}",
+    "share_product_text_beauty": "Werfen Sie einen Blick auf dieses Produkt auf Open Beauty Facts: {url}",
     "@share_product_text_beauty": {
         "description": "The content which is send, when sharing a 'beauty' product",
         "placeholders": {
@@ -2327,7 +2327,7 @@
             }
         }
     },
-    "share_product_text_pet_food": "Have a look at this product on Open PetFood Facts: {url}",
+    "share_product_text_pet_food": "Werfen Sie einen Blick auf dieses Produkt auf Open PetFood Facts: {url}",
     "@share_product_text_pet_food": {
         "description": "The content which is send, when sharing a 'pet food' product",
         "placeholders": {
@@ -2336,7 +2336,7 @@
             }
         }
     },
-    "share_product_text_product": "Have a look at this product on Open Products Facts: {url}",
+    "share_product_text_product": "Werfen Sie einen Blick auf dieses Produkt auf Open Products Facts: {url}",
     "@share_product_text_product": {
         "description": "The content which is send, when sharing a 'products' product",
         "placeholders": {
@@ -2560,7 +2560,7 @@
     "@user_picture_source_remember": {
         "description": "Checkbox label when select a picture source"
     },
-    "user_picture_source_ask": "Ask each time",
+    "user_picture_source_ask": "Jedes Mal nachfragen",
     "@user_picture_source_ask": {
         "description": "Choice of asking the picture source every time"
     },
@@ -2587,11 +2587,11 @@
     "app_rating_dialog_title_enjoying_positive_actions": "Ja!",
     "not_really": "Nicht wirklich",
     "app_rating_dialog_title_not_enjoying_app": "Es tut uns sehr leid, das zu hören! Können Sie uns mitteilen, was passiert ist?",
-    "owner_field_info_title": "Producer provided values",
+    "owner_field_info_title": "Vom Hersteller bereitgestellte Werte",
     "@owner_field_info_title": {
         "description": "Title of the 'producer provided' info list-tile"
     },
-    "owner_field_info_message": "With that logo we highlight data provided by the producer, and that may not be editable.",
+    "owner_field_info_message": "Mit diesem Logo heben wir die vom Hersteller bereitgestellten Daten hervor, die möglicherweise nicht bearbeitet werden können.",
     "@owner_field_info_message": {
         "description": "Title of the 'producer provided' info list-tile"
     },
@@ -3061,11 +3061,11 @@
     "@prices_feedback_form": {
         "description": "A button to send feedback about the prices feature"
     },
-    "menu_button_list_actions": "Select an action",
+    "menu_button_list_actions": "Aktion auswählen",
     "@menu_button_list_actions": {
         "description": "Button to select an action in a list (eg: Share, Delete, …)"
     },
-    "error_loading_photo": "Error loading photo",
+    "error_loading_photo": "Fehler beim Laden des Fotos",
     "@error_loading_photo": {
         "description": "Error message when loading a photo fails to load"
     },
@@ -3073,11 +3073,11 @@
     "@photo_viewer_details_button": {
         "description": "Button to show details of the photo"
     },
-    "photo_viewer_details_button_accessibility_label": "Details of this photo",
+    "photo_viewer_details_button_accessibility_label": "Einzelheiten zu diesem Foto",
     "@photo_viewer_details_button_accessibility_label": {
         "description": "Accessibility label for the Details button on a photo"
     },
-    "photo_viewer_details_title": "Details of the photo",
+    "photo_viewer_details_title": "Einzelheiten des Fotos",
     "@photo_viewer_details_title": {
         "description": "Title of the photo details dialog"
     },
@@ -3085,11 +3085,11 @@
     "@photo_viewer_details_contributor_title": {
         "description": "Label for the author of a photo"
     },
-    "photo_viewer_details_size_title": "Size",
+    "photo_viewer_details_size_title": "Größe",
     "@photo_viewer_details_size_title": {
         "description": "Label for the size of a photo"
     },
-    "photo_viewer_details_size_value": "{width} x {height} pixels",
+    "photo_viewer_details_size_value": "{width} ✕ {height} Pixel",
     "@photo_viewer_details_size_value": {
         "description": "Value for the size of a photo",
         "placeholders": {
@@ -3109,15 +3109,15 @@
     "@photo_viewer_details_url_title": {
         "description": "Label for the link of a photo"
     },
-    "product_page_compatibility_score": "Compatible",
+    "product_page_compatibility_score": "Kompatibel",
     "@product_page_compatibility_score": {
         "description": "Compatibility score on top of the product page. The sentence is \"100%\" Compatible"
     },
-    "user_lists_action_multi_select": "Multi-select",
+    "user_lists_action_multi_select": "Mehrfachauswahl",
     "@user_lists_action_multi_select": {
         "description": "The button label for multi-selecting products in a user list"
     },
-    "product_page_compatibility_score_tooltip": "Your compatibility score: {score}%",
+    "product_page_compatibility_score_tooltip": "Ihre Kompatibilitätsbewertung: {score}%",
     "@product_page_compatibility_score_tooltip": {
         "description": "Message explaining that the score is the compatibility score",
         "placeholders": {
@@ -3130,27 +3130,27 @@
     "@product_page_image_front_accessibility_label": {
         "description": "Accessibility label for the image on the product page"
     },
-    "product_page_image_front_outdated_message": "This picture may be outdated",
+    "product_page_image_front_outdated_message": "Dieses Bild ist möglicherweise veraltet",
     "@product_page_image_front_outdated_message": {
         "description": "Small message to indicate that the image may be outdated"
     },
-    "product_page_image_front_outdated_message_accessibility_label": "Front picture (this image may be outdated)",
+    "product_page_image_front_outdated_message_accessibility_label": "Vorderansicht (dieses Bild kann veraltet sein)",
     "@product_page_image_front_outdated_message_accessibility_label": {
         "description": "Accessibility label for the image on the product page when it may be outdated"
     },
-    "product_page_image_error": "Unable to load the image!",
+    "product_page_image_error": "Bild konnte nicht geladen werden!",
     "@product_page_image_error": {
         "description": "Small message that will be displayed above the picture (please keep it short)"
     },
-    "product_page_image_error_accessibility_label": "Unable to load the front picture (network error?)",
+    "product_page_image_error_accessibility_label": "Die Vorderansicht konnte nicht geladen werden (Netzwerkfehler?)",
     "@product_page_image_error_accessibility_label": {
         "description": "Accessibility label for the image on the product page when it fails to load"
     },
-    "product_page_image_no_image_available": "No\nimage!",
+    "product_page_image_no_image_available": "Keine\nBild!",
     "@product_page_image_no_image_available": {
         "description": "Small message that will be displayed above the picture (please keep it short) when there is no image available on the database. A line break is not mandatory."
     },
-    "product_page_image_no_image_available_accessibility_label": "No picture available for this product",
+    "product_page_image_no_image_available_accessibility_label": "Für dieses Produkt ist kein Bild verfügbar",
     "@product_page_image_no_image_available_accessibility_label": {
         "description": "Accessibility label for the image on the product page when there is no image available on the database"
     }
