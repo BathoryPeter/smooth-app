@@ -2578,7 +2578,7 @@
     "@user_picture_source_remember": {
         "description": "Checkbox label when select a picture source"
     },
-    "user_picture_source_ask": "Ask each time",
+    "user_picture_source_ask": "Fråga varje gång",
     "@user_picture_source_ask": {
         "description": "Choice of asking the picture source every time"
     },
@@ -3103,7 +3103,7 @@
     "@photo_viewer_details_contributor_title": {
         "description": "Label for the author of a photo"
     },
-    "photo_viewer_details_size_title": "Size",
+    "photo_viewer_details_size_title": "Storlek",
     "@photo_viewer_details_size_title": {
         "description": "Label for the size of a photo"
     },
@@ -3176,15 +3176,15 @@
     "@product_page_action_bar_settings_accessibility_label": {
         "description": "Accessibility label for the Settings icon in the action bar (= bottom bar) on the product page"
     },
-    "product_page_action_bar_setting_modal_title": "Edit actions",
+    "product_page_action_bar_setting_modal_title": "Redigera åtgärder",
     "@product_page_action_bar_setting_modal_title": {
         "description": "Title for the modal allowing to show and reorder actions"
     },
-    "product_page_action_bar_item_move_up": "Move up",
+    "product_page_action_bar_item_move_up": "Flytta upp",
     "@product_page_action_bar_item_move_up": {
         "description": "Accessibility label to move up an action"
     },
-    "product_page_action_bar_item_move_down": "Move down",
+    "product_page_action_bar_item_move_down": "Flytta ner",
     "@product_page_action_bar_item_move_down": {
         "description": "Accessibility label to move down an action"
     },
