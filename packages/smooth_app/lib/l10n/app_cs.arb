@@ -498,7 +498,7 @@
     "@search": {
         "description": "Hint text of a search text input field"
     },
-    "search_store": "Search for a store",
+    "search_store": "Vyhledat obchod",
     "@search_store": {
         "description": "Hint text of a search store text input field"
     },
@@ -1009,15 +1009,15 @@
     "@compare_products_mode": {
         "description": "Button to switch to 'compare products mode'"
     },
-    "delete_products_mode": "Delete selected products",
+    "delete_products_mode": "Odstranit vybrané produkty",
     "@delete_products_mode": {
         "description": "Button to switch to 'delete products'"
     },
-    "select_all_products_mode": "Select all products",
+    "select_all_products_mode": "Vybrat všechny produkty",
     "@select_all_products_mode": {
         "description": "Button to switch to 'select all products'"
     },
-    "select_none_products_mode": "Select none",
+    "select_none_products_mode": "Zrušit výběr",
     "@select_none_products_mode": {
         "description": "Button to switch to 'select no products'"
     },
@@ -1638,7 +1638,7 @@
     "@user_list_name_error_same": {
         "description": "Validation error about the renamed name that is the same as the initial list name"
     },
-    "user_list_name_input_hint": "Name of the list",
+    "user_list_name_input_hint": "Název seznamu",
     "@user_list_name_input_hint": {
         "description": "A hint to indicate that the user should input a name of a list"
     },
@@ -1860,7 +1860,7 @@
             }
         }
     },
-    "prices_barcode_enter": "Enter the Barcode",
+    "prices_barcode_enter": "Zadejte čárový kód",
     "prices_barcode_reader_action": "Čtečka čárových kódů",
     "prices_view_prices": "Zobrazit ceny",
     "prices_product_accessibility_summary": "{count,plural, =1{1 price} other{{count} prices}} for {product}",
@@ -3103,11 +3103,11 @@
     "@photo_viewer_details_contributor_title": {
         "description": "Label for the author of a photo"
     },
-    "photo_viewer_details_size_title": "Size",
+    "photo_viewer_details_size_title": "Velikost",
     "@photo_viewer_details_size_title": {
         "description": "Label for the size of a photo"
     },
-    "photo_viewer_details_size_value": "{width} x {height} pixels",
+    "photo_viewer_details_size_value": "{width} x {height} pixelů",
     "@photo_viewer_details_size_value": {
         "description": "Value for the size of a photo",
         "placeholders": {
@@ -3127,11 +3127,11 @@
     "@photo_viewer_details_url_title": {
         "description": "Label for the link of a photo"
     },
-    "product_page_compatibility_score": "Compatible",
+    "product_page_compatibility_score": "Kompatibilní",
     "@product_page_compatibility_score": {
         "description": "Compatibility score on top of the product page. The sentence is \"100%\" Compatible"
     },
-    "user_lists_action_multi_select": "Multi-select",
+    "user_lists_action_multi_select": "Hromadný výběr",
     "@user_lists_action_multi_select": {
         "description": "The button label for multi-selecting products in a user list"
     },
@@ -3148,11 +3148,11 @@
     "@product_page_image_front_accessibility_label": {
         "description": "Accessibility label for the image on the product page"
     },
-    "product_page_image_front_outdated_message": "This picture may be outdated",
+    "product_page_image_front_outdated_message": "Tento obrázek může být zastaralý",
     "@product_page_image_front_outdated_message": {
         "description": "Small message to indicate that the image may be outdated"
     },
-    "product_page_image_front_outdated_message_accessibility_label": "Front picture (this image may be outdated)",
+    "product_page_image_front_outdated_message_accessibility_label": "Přední obrázek (tento obrázek může být zastaralý)",
     "@product_page_image_front_outdated_message_accessibility_label": {
         "description": "Accessibility label for the image on the product page when it may be outdated"
     },
@@ -3176,7 +3176,7 @@
     "@product_page_action_bar_settings_accessibility_label": {
         "description": "Accessibility label for the Settings icon in the action bar (= bottom bar) on the product page"
     },
-    "product_page_action_bar_setting_modal_title": "Edit actions",
+    "product_page_action_bar_setting_modal_title": "Upravit akce",
     "@product_page_action_bar_setting_modal_title": {
         "description": "Title for the modal allowing to show and reorder actions"
     },
