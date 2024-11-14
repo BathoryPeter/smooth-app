@@ -48,7 +48,7 @@
     "@no": {},
     "stop": "Állj",
     "@stop": {},
-    "finish": "Finish",
+    "finish": "Befejezés",
     "@finish": {},
     "calculate": "Kiszámol",
     "@calculate": {
@@ -72,51 +72,51 @@
     "@unknown": {
         "description": "Short label for product list view: the compatibility of that product with your preferences is unknown"
     },
-    "match_very_good": "Very good match",
+    "match_very_good": "Nagyon jó egyezés",
     "@match_very_good": {
         "description": "Label for product page regarding product compatibility with the user preferences: very good match"
     },
-    "match_good": "Good match",
+    "match_good": "Jó egyezés",
     "@match_good": {
         "description": "Label for product page regarding product compatibility with the user preferences: good match"
     },
-    "match_poor": "Poor match",
+    "match_poor": "Gyenge egyezés",
     "@match_poor": {
         "description": "Label for product page regarding product compatibility with the user preferences: poor match"
     },
-    "match_may_not": "May not match",
+    "match_may_not": "Nem egyezhet",
     "@match_may_not": {
         "description": "Label for product page regarding product compatibility with the user preferences: may not match"
     },
-    "match_does_not": "Does not match",
+    "match_does_not": "Nem egyezik",
     "@match_does_not": {
         "description": "Label for product page regarding product compatibility with the user preferences: does not match"
     },
-    "match_unknown": "Unknown match",
+    "match_unknown": "Ismeretlen egyezés",
     "@match_unknown": {
         "description": "Label for product page regarding product compatibility with the user preferences: unknown match"
     },
-    "match_short_very_good": "Very good match",
+    "match_short_very_good": "Nagyon jó egyezés",
     "@match_short_very_good": {
         "description": "Short label for product list view regarding product compatibility with the user preferences: very good match"
     },
-    "match_short_good": "Good match",
+    "match_short_good": "Jó egyezés",
     "@match_short_good": {
         "description": "Short label for product list view regarding product compatibility with the user preferences: good match"
     },
-    "match_short_poor": "Poor match",
+    "match_short_poor": "Gyenge egyezés",
     "@match_short_poor": {
         "description": "Short label for product list view regarding product compatibility with the user preferences: poor match"
     },
-    "match_short_may_not": "May not match",
+    "match_short_may_not": "Nem egyezhet",
     "@match_short_may_not": {
         "description": "Short label for product list view regarding product compatibility with the user preferences: may not match"
     },
-    "match_short_does_not": "Does not match",
+    "match_short_does_not": "Nem egyezik",
     "@match_short_does_not": {
         "description": "Short label for product list view regarding product compatibility with the user preferences: does not match"
     },
-    "match_short_unknown": "Unknown match",
+    "match_short_unknown": "Ismeretlen egyezés",
     "@match_short_unknown": {
         "description": "Short label for product list view regarding product compatibility with the user preferences: unknown match"
     },
@@ -447,7 +447,7 @@
     "ranking_tab_all": "Összes",
     "ranking_subtitle_match_yes": "A great match for you",
     "ranking_subtitle_match_no": "Very poor match",
-    "ranking_subtitle_match_maybe": "Unknown match",
+    "ranking_subtitle_match_maybe": "Ismeretlen egyezés",
     "refresh_with_new_preferences": "Refresh the list with your new preferences",
     "@refresh_with_new_preferences": {
         "description": "Action button label: Refresh the list with your new preferences"
