@@ -113,24 +113,21 @@ class _ProductImageGalleryViewState extends State<ProductImageGalleryView>
           children: <Widget>[
             Expanded(
               child: RefreshIndicator(
-                onRefresh: () async =>
-                    ProductRefresher().fetchAndRefresh(
-                      barcode: barcode,
-                      context: context,
-                    ),
+                onRefresh: () async => ProductRefresher().fetchAndRefresh(
+                  barcode: barcode,
+                  context: context,
+                ),
                 child: CustomScrollView(
                   slivers: <Widget>[
                     SliverGrid(
                       gridDelegate:
-                      SliverGridDelegateWithFixedCrossAxisCountAndFixedHeight(
+                          SliverGridDelegateWithFixedCrossAxisCountAndFixedHeight(
                         crossAxisCount: 2,
-                        height: (MediaQuery
-                            .sizeOf(context)
-                            .width / 2.15) +
+                        height: (MediaQuery.sizeOf(context).width / 2.15) +
                             _PhotoRow.itemHeight,
                       ),
                       delegate: SliverChildBuilderDelegate(
-                            (BuildContext context, int index) {
+                        (BuildContext context, int index) {
                           return Padding(
                             padding: EdgeInsetsDirectional.only(
                               top: VERY_SMALL_SPACE,
@@ -161,10 +158,7 @@ class _ProductImageGalleryViewState extends State<ProductImageGalleryView>
                       sliver: SliverToBoxAdapter(
                         child: Text(
                           appLocalizations.more_photos,
-                          style: Theme
-                              .of(context)
-                              .textTheme
-                              .displayMedium,
+                          style: Theme.of(context).textTheme.displayMedium,
                         ),
                       ),
                     ),
@@ -177,10 +171,9 @@ class _ProductImageGalleryViewState extends State<ProductImageGalleryView>
                           child: SmoothLargeButtonWithIcon(
                             text: appLocalizations.view_more_photo_button,
                             icon: Icons.photo_camera_rounded,
-                            onPressed: () =>
-                                setState(
-                                      () => _clickedOtherPictureButton = true,
-                                ),
+                            onPressed: () => setState(
+                              () => _clickedOtherPictureButton = true,
+                            ),
                           ),
                         ),
                       ),
@@ -196,9 +189,7 @@ class _ProductImageGalleryViewState extends State<ProductImageGalleryView>
 
   bool _shouldDisplayRawGallery() =>
       _clickedOtherPictureButton ||
-          (upToDateProduct
-              .getRawImages()
-              ?.isNotEmpty == true);
+      (upToDateProduct.getRawImages()?.isNotEmpty == true);
 }
 
 class _PhotoRow extends StatelessWidget {
@@ -226,7 +217,7 @@ class _PhotoRow extends StatelessWidget {
     final String label = imageField.getProductImageTitle(appLocalizations);
 
     final SmoothColorsThemeExtension extension =
-    context.extension<SmoothColorsThemeExtension>();
+        context.extension<SmoothColorsThemeExtension>();
 
     return Semantics(
       image: true,
@@ -242,11 +233,10 @@ class _PhotoRow extends StatelessWidget {
         borderRadius: ANGULAR_BORDER_RADIUS,
         child: InkWell(
           borderRadius: ANGULAR_BORDER_RADIUS,
-          onTap: () =>
-              _openImage(
-                context: context,
-                initialImageIndex: position,
-              ),
+          onTap: () => _openImage(
+            context: context,
+            initialImageIndex: position,
+          ),
           child: ClipRRect(
             borderRadius: ANGULAR_BORDER_RADIUS,
             child: Column(
@@ -334,17 +324,18 @@ class _PhotoRow extends StatelessWidget {
       Navigator.push(
         context,
         MaterialPageRoute<void>(
-          builder: (_) =>
-              ProductImageSwipeableView(
-                initialImageIndex: initialImageIndex,
-                product: product,
-                isLoggedInMandatory: true,
-                initialLanguage: language,
-              ),
+          builder: (_) => ProductImageSwipeableView(
+            initialImageIndex: initialImageIndex,
+            product: product,
+            isLoggedInMandatory: true,
+            initialLanguage: language,
+          ),
         ),
       );
 
-  TransientFile _getTransientFile(final ImageField imageField,) =>
+  TransientFile _getTransientFile(
+    final ImageField imageField,
+  ) =>
       TransientFile.fromProduct(
         product,
         imageField,
