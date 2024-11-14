@@ -467,7 +467,7 @@ class _NutritionPageLoadedState extends State<NutritionPageLoaded>
 
     AnalyticsHelper.trackProductEdit(
       AnalyticsEditEvents.nutrition_Facts,
-      barcode,
+      upToDateProduct,
       true,
     );
     await BackgroundTaskDetails.addTask(
