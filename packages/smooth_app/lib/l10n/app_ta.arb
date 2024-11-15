@@ -833,16 +833,16 @@
     "@product_tags_title": {
         "description": "The title for showing product tags, aka folksonomy data"
     },
-    "no_product_tags_found_message": "No tags found. Tags can be used to better group similar products. Tap to add.",
+    "no_product_tags_found_message": "குறிச்சொற்கள் எதுவும் இல்லை. ஒத்த தயாரிப்புகளைச் சிறப்பாகக் குழுவாக்க குறிச்சொற்கள் பயன்படுத்தப்படலாம். சேர்க்க தட்டவும்.",
     "@no_product_tags_found_message": {
         "description": "Message to show if there are no product tags found"
     },
-    "add_tag": "Add Tag",
-    "edit_tag": "Edit Tag",
-    "remove_tag": "Remove Tag",
-    "tag_key": "Key",
+    "add_tag": "குறிச்சொல்லைச் சேர்",
+    "edit_tag": "குறியைத் திருத்து",
+    "remove_tag": "குறிச்சொல்லை அகற்று",
+    "tag_key": "முக்கிய",
     "tag_value": "Value",
-    "invalid_key_format": "Invalid key format. Must be lowercase and no spaces.",
+    "invalid_key_format": "தவறான விசை வடிவம். சிறிய எழுத்து மற்றும் இடைவெளிகள் இல்லாமல் இருக்க வேண்டும்.",
     "@invalid_key_format": {
         "description": "Message to show if the key value for a new product tag is invalid. This logic is identical to whats being validated in the folksonomy api"
     },
@@ -2013,7 +2013,7 @@
     "dev_mode_section_ui": "User Interface",
     "dev_mode_section_data": "தரவு",
     "dev_mode_section_experimental_features": "Experimental features",
-    "dev_preferences_show_folksonomy_title": "Exclude Folksonomy",
+    "dev_preferences_show_folksonomy_title": "ஃபோக்சோனமியை விலக்கு",
     "@dev_preferences_show_folksonomy_title": {
         "description": "Title for switch toggle to show or hide folksonomy, product tags on product details page"
     },
