@@ -829,20 +829,20 @@
             }
         }
     },
-    "product_tags_title": "Product Tags",
+    "product_tags_title": "Produkt-Schlagwörter",
     "@product_tags_title": {
         "description": "The title for showing product tags, aka folksonomy data"
     },
-    "no_product_tags_found_message": "No tags found. Tags can be used to better group similar products. Tap to add.",
+    "no_product_tags_found_message": "Keine Schlagwörter gefunden. Schlagwörter können verwendet werden, um ähnliche Produkte besser zu gruppieren. Zum Hinzufügen, bitte antippen.",
     "@no_product_tags_found_message": {
         "description": "Message to show if there are no product tags found"
     },
-    "add_tag": "Add Tag",
-    "edit_tag": "Edit Tag",
-    "remove_tag": "Remove Tag",
-    "tag_key": "Key",
+    "add_tag": "Schlagwort hinzufügen",
+    "edit_tag": "Schlagwort bearbeiten",
+    "remove_tag": "Schlagwort entfernen",
+    "tag_key": "Schlüssel",
     "tag_value": "Wert",
-    "invalid_key_format": "Invalid key format. Must be lowercase and no spaces.",
+    "invalid_key_format": "Ungültiges Schlüsselformat. Nur Kleinbuchstaben erlaubt und darf keine Leerzeichen enthalten.",
     "@invalid_key_format": {
         "description": "Message to show if the key value for a new product tag is invalid. This logic is identical to whats being validated in the folksonomy api"
     },
@@ -2013,7 +2013,7 @@
     "dev_mode_section_ui": "Benutzeroberfläche",
     "dev_mode_section_data": "Daten",
     "dev_mode_section_experimental_features": "Experimentelle Funktionen",
-    "dev_preferences_show_folksonomy_title": "Exclude Folksonomy",
+    "dev_preferences_show_folksonomy_title": "Folksonomy ausschließen",
     "@dev_preferences_show_folksonomy_title": {
         "description": "Title for switch toggle to show or hide folksonomy, product tags on product details page"
     },
