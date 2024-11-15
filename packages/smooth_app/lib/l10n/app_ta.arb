@@ -829,7 +829,7 @@
             }
         }
     },
-    "product_tags_title": "Product Tags",
+    "product_tags_title": "தயாரிப்புக் குறிச்சொற்கள்",
     "@product_tags_title": {
         "description": "The title for showing product tags, aka folksonomy data"
     },
