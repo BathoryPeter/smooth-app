@@ -829,20 +829,20 @@
             }
         }
     },
-    "product_tags_title": "Product Tags",
+    "product_tags_title": "Produktų žymės",
     "@product_tags_title": {
         "description": "The title for showing product tags, aka folksonomy data"
     },
-    "no_product_tags_found_message": "No tags found. Tags can be used to better group similar products. Tap to add.",
+    "no_product_tags_found_message": "Nerasta jokių žymių. Žymes galima naudoti panašies produktams geriau sugrupuoti. Bakstelėkite, kad pridėtumėte.",
     "@no_product_tags_found_message": {
         "description": "Message to show if there are no product tags found"
     },
-    "add_tag": "Add Tag",
-    "edit_tag": "Edit Tag",
-    "remove_tag": "Remove Tag",
-    "tag_key": "Key",
+    "add_tag": "Pridėti žymę",
+    "edit_tag": "Redaguoti žymę",
+    "remove_tag": "Šalinti žymę",
+    "tag_key": "Raktas",
     "tag_value": "Vertė",
-    "invalid_key_format": "Invalid key format. Must be lowercase and no spaces.",
+    "invalid_key_format": "Neteisingas rakto formatas. Turi būti mažosios raidės ir be tarpų.",
     "@invalid_key_format": {
         "description": "Message to show if the key value for a new product tag is invalid. This logic is identical to whats being validated in the folksonomy api"
     },
