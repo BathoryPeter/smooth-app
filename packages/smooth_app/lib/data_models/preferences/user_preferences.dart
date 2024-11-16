@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
@@ -6,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:smooth_app/data_models/product_preferences.dart';
 import 'package:smooth_app/pages/onboarding/onboarding_flow_navigator.dart';
 import 'package:smooth_app/pages/preferences/user_preferences_dev_mode.dart';
+import 'package:smooth_app/pages/product/product_page/footer/new_product_footer.dart';
 import 'package:smooth_app/themes/color_schemes.dart';
 import 'package:smooth_app/themes/theme_provider.dart';
 
@@ -54,6 +56,9 @@ class UserPreferences extends ChangeNotifier {
     return _instance!;
   }
 
+  /// Once we initialized with main.dart, we don't need the "async".
+  static UserPreferences getUserPreferencesSync() => _instance!;
+
   late ValueNotifier<bool> onCrashReportingChanged;
   late ValueNotifier<bool> onAnalyticsChanged;
 
@@ -82,6 +87,8 @@ class UserPreferences extends ChangeNotifier {
   static const String _TAG_USER_GROUP = '_user_group';
   static const String _TAG_UNIQUE_RANDOM = '_unique_random';
   static const String _TAG_LAZY_COUNT_PREFIX = '_lazy_count_prefix';
+  static const String _TAG_LATEST_PRODUCT_TYPE = '_latest_product_type';
+  static const String _TAG_PRODUCT_PAGE_ACTIONS = '_product_page_actions';
 
   /// Camera preferences
 
@@ -467,5 +474,43 @@ class UserPreferences extends ChangeNotifier {
         clickedNews,
       );
     }
+  }
+
+  ProductType get latestProductType =>
+      ProductType.fromOffTag(
+          _sharedPreferences.getString(_TAG_LATEST_PRODUCT_TYPE)) ??
+      ProductType.food;
+
+  set latestProductType(final ProductType value) => unawaited(
+        _sharedPreferences.setString(
+          _TAG_LATEST_PRODUCT_TYPE,
+          value.offTag,
+        ),
+      );
+
+  List<ProductFooterActionBar> get productPageActions {
+    final List<String>? actions =
+        _sharedPreferences.getStringList(_TAG_PRODUCT_PAGE_ACTIONS);
+
+    if (actions == null) {
+      return ProductFooterActionBar.defaultOrder();
+    }
+
+    return actions
+        .map((String action) => ProductFooterActionBar.fromKey(action))
+        .toList(growable: false);
+  }
+
+  Future<void> setProductPageActions(
+    final Iterable<ProductFooterActionBar> value,
+  ) async {
+    assert(!value.contains(ProductFooterActionBar.settings));
+    await _sharedPreferences.setStringList(
+      _TAG_PRODUCT_PAGE_ACTIONS,
+      value
+          .map((ProductFooterActionBar action) => action.key)
+          .toList(growable: false),
+    );
+    notifyListeners();
   }
 }

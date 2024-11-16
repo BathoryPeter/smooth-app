@@ -6,6 +6,7 @@ import 'package:smooth_app/helpers/analytics_helper.dart';
 import 'package:smooth_app/pages/product/add_new_product_page.dart';
 import 'package:smooth_app/pages/product/product_field_editor.dart';
 import 'package:smooth_app/pages/product/simple_input_page_helpers.dart';
+import 'package:smooth_app/query/product_query.dart';
 
 /// "Incomplete product!" card to be displayed in product summary, if relevant.
 ///
@@ -27,16 +28,16 @@ class ProductIncompleteCard extends StatelessWidget {
     }
     bool checkScores = true;
     if (_isNutriscoreNotApplicable(product)) {
-      AnalyticsHelper.trackEvent(
+      AnalyticsHelper.trackProductEvent(
         AnalyticsEvent.notShowFastTrackProductEditCardNutriscore,
-        barcode: product.barcode,
+        product: product,
       );
       checkScores = false;
     }
     if (_isEcoscoreNotApplicable(product)) {
-      AnalyticsHelper.trackEvent(
+      AnalyticsHelper.trackProductEvent(
         AnalyticsEvent.notShowFastTrackProductEditCardEcoscore,
-        barcode: product.barcode,
+        product: product,
       );
       checkScores = false;
     }
@@ -99,7 +100,11 @@ class ProductIncompleteCard extends StatelessWidget {
       child: ElevatedButton.icon(
         label: Padding(
           padding: const EdgeInsets.symmetric(vertical: SMALL_SPACE),
-          child: Text(appLocalizations.hey_incomplete_product_message),
+          child: Text(
+            (product.productType ?? ProductType.food).getRoadToScoreLabel(
+              appLocalizations,
+            ),
+          ),
         ),
         icon: const Icon(
           Icons.bolt,

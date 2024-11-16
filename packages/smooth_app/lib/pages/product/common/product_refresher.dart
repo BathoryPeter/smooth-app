@@ -9,11 +9,13 @@ import 'package:smooth_app/data_models/fetched_product.dart';
 import 'package:smooth_app/database/dao_product.dart';
 import 'package:smooth_app/database/local_database.dart';
 import 'package:smooth_app/generic_lib/dialogs/smooth_alert_dialog.dart';
-import 'package:smooth_app/generic_lib/duration_constants.dart';
 import 'package:smooth_app/generic_lib/loading_dialog.dart';
+import 'package:smooth_app/generic_lib/widgets/smooth_snackbar.dart';
 import 'package:smooth_app/pages/user_management/login_page.dart';
 import 'package:smooth_app/query/product_query.dart';
+import 'package:smooth_app/query/search_products_manager.dart';
 import 'package:smooth_app/services/smooth_services.dart';
+import 'package:smooth_app/themes/smooth_theme_colors.dart';
 
 /// Refreshes a product on the BE then on the local database.
 class ProductRefresher {
@@ -107,8 +109,9 @@ class ProductRefresher {
   Future<void> silentFetchAndRefreshList({
     required final List<String> barcodes,
     required final LocalDatabase localDatabase,
+    required final ProductType productType,
   }) async =>
-      _fetchAndRefreshList(localDatabase, barcodes);
+      _fetchAndRefreshList(localDatabase, barcodes, productType);
 
   /// Fetches the product from the server and refreshes the local database.
   ///
@@ -143,10 +146,21 @@ class ProductRefresher {
       return false;
     }
     if (context.mounted) {
+      final ThemeData themeData = Theme.of(context);
+
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(appLocalizations.product_refreshed),
-          duration: SnackBarDuration.short,
+        SmoothFloatingSnackbar(
+          content: Row(
+            children: <Widget>[
+              Expanded(child: Text(appLocalizations.product_refreshed)),
+              const Icon(
+                Icons.check_circle,
+                color: Colors.white,
+              ),
+            ],
+          ),
+          backgroundColor:
+              themeData.extension<SmoothColorsThemeExtension>()!.green,
         ),
       );
     }
@@ -246,18 +260,25 @@ class ProductRefresher {
   Future<int?> _fetchAndRefreshList(
     final LocalDatabase localDatabase,
     final List<String> barcodes,
+    final ProductType productType,
   ) async {
     try {
       final OpenFoodFactsLanguage language = ProductQuery.getLanguage();
-      final SearchResult searchResult = await OpenFoodAPIClient.searchProducts(
+      final SearchResult searchResult =
+          await SearchProductsManager.searchProducts(
         ProductQuery.getReadUser(),
         getBarcodeListQueryConfiguration(barcodes, language),
-        uriHelper: ProductQuery.getUriProductHelper(),
+        uriHelper: ProductQuery.getUriProductHelper(productType: productType),
+        type: SearchProductsType.live,
       );
       if (searchResult.products == null) {
         return null;
       }
-      await DaoProduct(localDatabase).putAll(searchResult.products!, language);
+      await DaoProduct(localDatabase).putAll(
+        searchResult.products!,
+        language,
+        productType: productType,
+      );
       localDatabase.upToDate
           .setLatestDownloadedProducts(searchResult.products!);
       return searchResult.products!.length;

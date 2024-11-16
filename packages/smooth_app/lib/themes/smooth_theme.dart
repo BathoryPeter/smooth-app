@@ -38,18 +38,26 @@ class SmoothTheme {
       }
     }
 
+    final SmoothColorsThemeExtension smoothExtension =
+        SmoothColorsThemeExtension.defaultValues();
+
+    final TextTheme textTheme = brightness == Brightness.dark
+        ? getTextTheme(themeProvider, textContrastProvider)
+        : _TEXT_THEME;
+
     return ThemeData(
-      useMaterial3: false,
       fontFamily: 'OpenSans',
       primaryColor: DARK_BROWN_COLOR,
-      extensions: <SmoothColorsThemeExtension>[
-        SmoothColorsThemeExtension.defaultValues(),
-      ],
+      extensions: <ThemeExtension<dynamic>>[smoothExtension],
       colorScheme: myColorScheme,
       canvasColor: themeProvider.currentTheme == THEME_AMOLED
           ? myColorScheme.surface
           : null,
+      scaffoldBackgroundColor:
+          brightness == Brightness.light ? null : const Color(0xFF303030),
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
+        backgroundColor:
+            brightness == Brightness.light ? null : const Color(0xFF303030),
         selectedIconTheme: const IconThemeData(size: 24.0),
         showSelectedLabels: true,
         selectedItemColor: brightness == Brightness.dark
@@ -58,6 +66,8 @@ class SmoothTheme {
         selectedLabelStyle: const TextStyle(fontWeight: FontWeight.bold),
         showUnselectedLabels: true,
         unselectedIconTheme: const IconThemeData(size: 20.0),
+        elevation: 0.0,
+        enableFeedback: true,
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ButtonStyle(
@@ -66,18 +76,22 @@ class SmoothTheme {
                 ? Colors.grey
                 : myColorScheme.primary,
           ),
+          foregroundColor: WidgetStateProperty.resolveWith<Color?>(
+            (Set<WidgetState> states) => states.contains(WidgetState.disabled)
+                ? Colors.white
+                : myColorScheme.onPrimary,
+          ),
         ),
       ),
       floatingActionButtonTheme: FloatingActionButtonThemeData(
           backgroundColor: myColorScheme.primary,
           foregroundColor: myColorScheme.onPrimary),
-      textTheme: brightness == Brightness.dark
-          ? getTextTheme(themeProvider, textContrastProvider)
-          : _TEXT_THEME,
+      textTheme: textTheme,
       appBarTheme: AppBarTheme(
         color: myColorScheme.surface,
         foregroundColor: myColorScheme.onSurface,
         systemOverlayStyle: SystemUiOverlayStyle.light,
+        titleTextStyle: textTheme.titleLarge,
       ),
       dividerColor: const Color(0xFFdfdfdf),
       inputDecorationTheme: InputDecorationTheme(
@@ -87,10 +101,12 @@ class SmoothTheme {
         color: myColorScheme.onSurface,
       ),
       snackBarTheme: SnackBarThemeData(
-        contentTextStyle:
-            _TEXT_THEME.bodyMedium?.copyWith(color: myColorScheme.onPrimary),
-        actionTextColor: myColorScheme.onPrimary,
-        backgroundColor: myColorScheme.onSurface,
+        contentTextStyle: _TEXT_THEME.bodyMedium?.copyWith(
+          color: Colors.white,
+          fontWeight: FontWeight.w500,
+        ),
+        actionTextColor: Colors.white,
+        backgroundColor: smoothExtension.primaryBlack,
       ),
       bannerTheme: MaterialBannerThemeData(
         contentTextStyle: TextStyle(color: myColorScheme.onSecondary),
@@ -103,10 +119,22 @@ class SmoothTheme {
             return null;
           }
           if (states.contains(WidgetState.selected)) {
-            return myColorScheme.primary;
+            return brightness == Brightness.light
+                ? smoothExtension.primarySemiDark
+                : smoothExtension.primaryNormal;
           }
           return null;
         }),
+        side: BorderSide(
+          color: brightness == Brightness.light
+              ? smoothExtension.primaryBlack
+              : smoothExtension.primarySemiDark,
+          width: 2.0,
+        ),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(3.0),
+        ),
+        checkColor: const WidgetStatePropertyAll<Color>(Colors.white),
       ),
       radioTheme: RadioThemeData(
         fillColor:
@@ -220,5 +248,11 @@ class SmoothTheme {
             .clamp(0.0, 1.0));
 
     return hslDark.toColor();
+  }
+}
+
+extension SmoothThemeExtension on BuildContext {
+  T extension<T>() {
+    return Theme.of(this).extension<T>()!;
   }
 }
