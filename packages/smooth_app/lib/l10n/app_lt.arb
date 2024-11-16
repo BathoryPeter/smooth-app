@@ -2013,7 +2013,7 @@
     "dev_mode_section_ui": "User Interface",
     "dev_mode_section_data": "Duomenys",
     "dev_mode_section_experimental_features": "Experimental features",
-    "dev_preferences_show_folksonomy_title": "Exclude Folksonomy",
+    "dev_preferences_show_folksonomy_title": "Neįtraukti folksonomijos",
     "@dev_preferences_show_folksonomy_title": {
         "description": "Title for switch toggle to show or hide folksonomy, product tags on product details page"
     },
