@@ -829,20 +829,20 @@
             }
         }
     },
-    "product_tags_title": "Product Tags",
+    "product_tags_title": "תגיות מוצרים",
     "@product_tags_title": {
         "description": "The title for showing product tags, aka folksonomy data"
     },
-    "no_product_tags_found_message": "No tags found. Tags can be used to better group similar products. Tap to add.",
+    "no_product_tags_found_message": "לא נמצאו תגיות. אפשר להשתמש בתגיות כדי לקבץ בצורה נוחה יותר מוצרים דומים. נגיעה להוספה.",
     "@no_product_tags_found_message": {
         "description": "Message to show if there are no product tags found"
     },
-    "add_tag": "Add Tag",
-    "edit_tag": "Edit Tag",
-    "remove_tag": "Remove Tag",
-    "tag_key": "Key",
+    "add_tag": "הוספת תגית",
+    "edit_tag": "עריכת תגית",
+    "remove_tag": "הסרת תגית",
+    "tag_key": "מפתח",
     "tag_value": "ערך",
-    "invalid_key_format": "Invalid key format. Must be lowercase and no spaces.",
+    "invalid_key_format": "תסדיר המפתח שגוי. חייב להיות באותיות קטנות ובלי רווחים.",
     "@invalid_key_format": {
         "description": "Message to show if the key value for a new product tag is invalid. This logic is identical to whats being validated in the folksonomy api"
     },
@@ -2013,7 +2013,7 @@
     "dev_mode_section_ui": "מנשק משתמש",
     "dev_mode_section_data": "נתונים",
     "dev_mode_section_experimental_features": "יכולות ניסיוניות",
-    "dev_preferences_show_folksonomy_title": "Exclude Folksonomy",
+    "dev_preferences_show_folksonomy_title": "להחריג טוקסונומיה עממית",
     "@dev_preferences_show_folksonomy_title": {
         "description": "Title for switch toggle to show or hide folksonomy, product tags on product details page"
     },
