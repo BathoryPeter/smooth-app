@@ -6,7 +6,7 @@
     },
     "yes": "Igen",
     "@yes": {},
-    "add": "Hozzáad",
+    "add": "Hozzáadás",
     "@add": {},
     "account_delete_message": "Biztosan törölni szeretné a fiókját?\nHa van konkrét oka, kérjük ossza meg alább",
     "@account_delete_message": {},
@@ -18,7 +18,7 @@
     "@validate": {
         "description": "Button label: Validate the input"
     },
-    "create": "Létrehoz",
+    "create": "Létrehozás",
     "@create": {
         "description": "An action to create"
     },
@@ -38,7 +38,7 @@
     "skip": "Skip",
     "cancel": "Mégse",
     "@cancel": {},
-    "ignore": "Figyelmen kívül hagyni",
+    "ignore": "Mellőzés",
     "@ignore": {
         "description": "'Ignore' button. Typical use case in combination with 'OK' and 'Cancel' buttons."
     },
@@ -46,15 +46,15 @@
     "@close": {},
     "no": "Nem",
     "@no": {},
-    "stop": "Állj",
+    "stop": "Leállítás",
     "@stop": {},
     "finish": "Befejezés",
     "@finish": {},
-    "calculate": "Kiszámol",
+    "calculate": "Kiszámítás",
     "@calculate": {
         "description": "'Calculate' button. Typical use case: the user inputs data then clicks on the 'calculate' button."
     },
-    "reset_food_prefs": "Vissza állítani az étel preferenciákat",
+    "reset_food_prefs": "Preferált ételek visszaállítása",
     "@reset": {
         "description": "Button label, clicking on the button will reset user's food preferences."
     },
@@ -129,7 +129,7 @@
     "@Introduction screen": {},
     "welcomeToOpenFoodFacts": "Üdvözli az Open Food Facts",
     "@welcomeToOpenFoodFacts": {},
-    "whatIsOff": "Open Food Facts is a global non-profit powered by local communities.",
+    "whatIsOff": "Az Open Food Facts egy helyi közösségek által működtetett globális nonprofit szervezet.",
     "@whatIsOff": {
         "description": "Description of Open Food Facts organization."
     },
@@ -137,34 +137,34 @@
     "@productDataUtility": {
         "description": "Description of what a user can use the product data for."
     },
-    "healthCardUtility": "Válassz olyan ételeket, amelyek jók neked.",
+    "healthCardUtility": "Válasszon olyan élelmiszereket, amelyek jók Önnek.",
     "@healthCardUtility": {
         "description": "Description of what a user can use the health data in a product for."
     },
-    "ecoCardUtility": "Válassz olyan élelmiszereket, amelyek jót tesznek a bolygónak.",
+    "ecoCardUtility": "Válasszon olyan élelmiszereket, amelyek jót tesznek a bolygónak.",
     "@ecoCardUtility": {
         "description": "Description of what a user can use the Eco data in a product for."
     },
-    "server_error_open_new_issue": "No server response! You may open an issue with the following link.",
+    "server_error_open_new_issue": "A szerver nem válaszol! A következő linken nyithat hibajelentést.",
     "@user_management": {},
-    "sign_in_text": "Sign in to your Open Food Facts account to save your contributions",
+    "sign_in_text": "A közreműködései mentéséhez jelentkezzen be az OpenFoodFacts fiókjába",
     "incorrect_credentials": "Helytelen felhasználónév vagy jelszó.",
-    "password_lost_incorrect_credentials": "This email or username doesn't exist. Please check your credentials.",
-    "password_lost_server_unavailable": "We are currently experiencing slowdowns on our servers and we apologise for it. Please try again later.",
+    "password_lost_incorrect_credentials": "Ez az e-mailcím vagy felhasználónév nem létezik. Ellenőrizze a hitelesítési adatait.",
+    "password_lost_server_unavailable": "Jelenleg lassulást tapasztalunk a szervereinken, amiért elnézést kérünk. Kérjük, próbálja meg később újra.",
     "login": "Felhasználói név",
     "@login": {
         "description": "Text field hint: unified name for either username or e-mail address"
     },
-    "login_result_type_server_unreachable": "Network is unreachable",
+    "login_result_type_server_unreachable": "A hálózat nem érhető el",
     "@login_result_type_server_unreachable": {
         "description": "Error message when trying to log in without network"
     },
-    "login_result_type_server_issue": "Problem on the server. Please try later.",
+    "login_result_type_server_issue": "Probléma a szerveren. Kérjük, próbálja meg később.",
     "@login_result_type_server_issue": {
         "description": "Error message when trying to log in and the server does not answer correctly"
     },
-    "login_page_username_or_email": "Kérjük, adja meg felhasználónevét vagy e-mail címét",
-    "login_page_password_error_empty": "Kérem, adjon meg egy jelszót",
+    "login_page_username_or_email": "Adja meg felhasználónevét vagy e-mail címét",
+    "login_page_password_error_empty": "Adjon meg egy jelszót",
     "create_account": "Fiók létrehozása",
     "@create_account": {
         "description": "Button label: Opens a page where a new user can register"
@@ -173,7 +173,7 @@
     "@sign_in": {
         "description": "Button label: For sign in"
     },
-    "sign_in_mandatory": "Ehhez a funkcióhoz, be kell, hogy jelentkezz.",
+    "sign_in_mandatory": "Ehhez a funkcióhoz be kell jelentkeznie.",
     "@sign_in_mandatory": {
         "description": "Error message: for some features like product edits you need to be signed in"
     },
@@ -208,7 +208,7 @@
     "@send_reset_password_mail": {
         "description": "Button label: Submit the password reset e-mail request"
     },
-    "enter_some_text": "Kérjük, írjon be valamilyen szöveget",
+    "enter_some_text": "Írjon be valamilyen szöveget",
     "@enter_some_text": {
         "description": "Error when a required text field is empty"
     },
@@ -220,21 +220,21 @@
     "@sign_up_page_action_button": {
         "description": "Button for signing up"
     },
-    "sign_up_page_action_doing_it": "Jelentkezés…",
+    "sign_up_page_action_doing_it": "Regisztráció…",
     "@sign_up_page_action_doing_it": {
         "description": "Progress indicator dialog during the actual signing up process"
     },
-    "sign_up_page_action_ok": "Gratulálunk! Fiókja most létre jött.",
+    "sign_up_page_action_ok": "Gratulálunk, a fiókja létrejött!",
     "sign_up_page_display_name_hint": "Név",
     "sign_up_page_display_name_error_empty": "Kérjük, adja meg felhasználónevét",
     "sign_up_page_email_hint": "E-mail",
     "sign_up_page_email_error_empty": "E-mail szükséges",
     "sign_up_page_email_error_invalid": "Érvénytelen e-mail",
     "sign_up_page_username_hint": "Felhasználónév: Nyilvánosan látható",
-    "sign_up_page_username_error_empty": "Kérjük, adjon meg egy felhasználónevet",
-    "sign_up_page_username_error_invalid": "Kérjük, adjon meg egy érvényes felhasználónevet",
+    "sign_up_page_username_error_empty": "Adjon meg egy felhasználónevet",
+    "sign_up_page_username_error_invalid": "Adjon meg egy érvényes felhasználónevet",
     "sign_up_page_username_description": "A felhasználónév nem tartalmazhat szóközt, nagybetűket vagy speciális karaktereket.",
-    "sign_up_page_username_length_invalid": "A felhasználónév nem haladhatja meg {value} karaktert",
+    "sign_up_page_username_length_invalid": "A felhasználónév nem lehet {value} karakternél hosszabb",
     "@sign_up_page_username_length_invalid": {
         "placeholders": {
             "value": {
@@ -243,39 +243,39 @@
         }
     },
     "sign_up_page_password_hint": "Jelszó",
-    "sign_up_page_password_error_empty": "Kérem, adjon meg egy jelszót",
-    "sign_up_page_password_error_invalid": "Kérem, adjon meg egy érvényes jelszót (legalább 6 karakter)",
+    "sign_up_page_password_error_empty": "Adjon meg egy jelszót",
+    "sign_up_page_password_error_invalid": "Adjon meg egy érvényes jelszót (legalább 6 karakter)",
     "sign_up_page_confirm_password_hint": "Jelszó megerősítése",
-    "sign_up_page_confirm_password_error_empty": "Kérjük, erősítse meg a jelszót",
+    "sign_up_page_confirm_password_error_empty": "Erősítse meg a jelszavát",
     "sign_up_page_confirm_password_error_invalid": "A jelszavak nem egyeznek",
-    "sign_up_page_agree_text": "I agree to the Open Food Facts",
+    "sign_up_page_agree_text": "Egyetértek az Open Food Facts",
     "@sign_up_page_agree_text": {
         "description": "I agree to the Open Food Facts is followed by sign_up_page_terms_text"
     },
-    "sign_up_page_terms_text": "felhasználási és hozzájárulási feltételek",
+    "sign_up_page_terms_text": "felhasználási és hozzájárulási feltételeivel",
     "@sign_up_page_terms_text": {
         "description": "terms of use and contribution is preceded by sign_up_page_agree_text"
     },
-    "sign_up_page_agree_url": "https://world-en.openfoodfacts.org/terms-of-use",
+    "sign_up_page_agree_url": "https://hu.openfoodfacts.org/terms-of-use",
     "@sign_up_page_agree_url": {
         "description": "Please insert the right url here. Go to the Open Food Facts homepage, switch to your country and then on the bottom left footer is Terms of use from which the url should be taken"
     },
-    "donate_url": "https://donate.openfoodfacts.org/",
+    "donate_url": "https://hu.openfoodfacts.org/donate-to-open-food-facts",
     "@donate_url": {
         "description": "Please insert the right url from the website here."
     },
-    "sign_up_page_agree_error_invalid": "Fiók létrehozásakor a Felhasználási feltételek elfogadása kötelező, azonban az alkalmazáson keresztül továbbra is lehetséges névtelen hozzájárulás",
+    "sign_up_page_agree_error_invalid": "Fiók létrehozásakor a felhasználási feltételek elfogadása kötelező, azonban az alkalmazáson keresztül továbbra is lehetséges a névtelen hozzájárulás",
     "@sign_up_page_agree_error_invalid": {
         "description": "Error message: You have to agree to the terms-of-use (A checkbox to do so is above this error message)"
     },
-    "sign_up_page_producer_checkbox": "Élelmiszer termelő vagyok",
-    "sign_up_page_producer_hint": "Termelő/márka",
-    "sign_up_page_producer_error_empty": "Kérjük, adjon meg egy termelő vagy egy márkanevet",
-    "sign_up_page_subscribe_checkbox": "I'd like to subscribe to the Open Food Facts newsletter (You can unsubscribe from it at any time)",
-    "sign_up_page_user_name_already_used": "A felhasználónév már létezik, kérjük válassz másik felhasználónevet.",
+    "sign_up_page_producer_checkbox": "Élelmiszergyártó vagyok",
+    "sign_up_page_producer_hint": "Gyártó/márka",
+    "sign_up_page_producer_error_empty": "Adjon meg egy gyártói vagy márkanevet",
+    "sign_up_page_subscribe_checkbox": "Szeretnék feliratkozni az Open Food Facts hírlevélre (bármikor leiratkozhat róla)",
+    "sign_up_page_user_name_already_used": "A felhasználónév már létezik. Válasszon másik felhasználónevet.",
     "sign_up_page_email_already_exists": "már létezik, jelentkezzen be a fiókba, vagy próbálja meg másik e-mail címmel.",
-    "sign_up_page_provide_valid_email": "Kérem adjon meg valós email címet.",
-    "sign_up_page_server_busy": "We are deeply sorry, we have some technical difficulties to create your account. Please try again later.",
+    "sign_up_page_provide_valid_email": "Valódi email címet adjon meg.",
+    "sign_up_page_server_busy": "Nagyon sajnáljuk, hogy technikai nehézségekbe ütköztünk a fiók létrehozásánál. Kérjük, próbálja meg később újra.",
     "settingsTitle": "Beállítások",
     "@settingsTitle": {
         "description": "The title of the Settings page"
@@ -296,8 +296,8 @@
     "@darkmode_system_default": {
         "description": "Indicator inside the darkmode switch (system default)"
     },
-    "thanks_for_contributing": "Thanks for contributing!",
-    "contributors_label": "They are building the app",
+    "thanks_for_contributing": "Köszönjük a közreműködést!",
+    "contributors_label": "Ők fejlesztik az alkalmazást",
     "@contributors_label": {
         "description": "Button label: Opens a pop up window where all contributors of this app are shown"
     },
@@ -305,33 +305,33 @@
     "@contributors_dialog_title": {
         "description": "Dialog title: A list of all contributors of this app"
     },
-    "contributors_dialog_entry_description": "Contributor: {name}",
+    "contributors_dialog_entry_description": "Közreműködő: {name}",
     "@contributors_dialog_entry_description": {
         "description": "The user id of the contributor.",
         "placeholders": {
             "name": {}
         }
     },
-    "contributors_description": "A list of all contributors of this app",
+    "contributors_description": "Az alkalmazás összes közreműködőjének listája",
     "@contributors_description": {
         "description": "Button description for accessibility purposes to explain what the Contributors button do"
     },
-    "support": "Support",
+    "support": "Támogatás",
     "@support": {
         "description": "Button label: Opens a pop up window where all ways to get support are shown"
     },
     "support_join_slack": "Kérjen segítséget Slack csatornánkon.",
-    "support_via_forum": "Kérj segítséget a fórumonkon",
-    "support_via_email": "Küldj nekünk emailt",
+    "support_via_forum": "Kérjen segítséget a fórumonkon",
+    "support_via_email": "Küldjön nekünk emailt",
     "support_via_email_include_logs_dialog_title": "Elküldi az alkalmazásnaplókat?",
-    "support_via_email_include_logs_dialog_body": "Szeretné csatolni a jelentkezési naplókat az e-mail mellékleteként?",
-    "termsOfUse": "Felhasználási feltételek (ToU) (angolul)",
+    "support_via_email_include_logs_dialog_body": "Szeretné csatolni az alkalmazás naplófájlját az e-mail mellékleteként?",
+    "termsOfUse": "Felhasználási feltételek",
     "@termsOfUse": {},
-    "legalNotices": "Legal notices",
+    "legalNotices": "Jogi nyilatkozat",
     "@legalNotices": {
         "description": "A link to open the legal notices on the website"
     },
-    "privacy_policy": "Privacy policy",
+    "privacy_policy": "Adatvédelmi Irányelvek",
     "@privacy_policy": {
         "description": "A link to open the privacy policy on the website"
     },
@@ -344,23 +344,23 @@
     "@contribute": {
         "description": "Button label: Shows multiple ways how users can contribute to OFF"
     },
-    "contribute_sw_development": "Szoftver fejlesztés",
+    "contribute_sw_development": "Szoftverfejlesztés",
     "@contribute_sw_development": {
         "description": "Button label + page title: Ways to help"
     },
-    "contribute_develop_text": "The code for every Open Food Facts product is available on GitHub. You are welcome to reuse the code (it's open source) and help us improve it, for everyone, on all the planet.",
+    "contribute_develop_text": "Minden Open Food Facts projekt forráskódja elérhető a GitHubon. Szívesen látjuk, ha újrafelhasználja a kódot (nyílt forráskódú), segít nekünk fejleszteni, mindenki számára, az egész bolygón.",
     "@contribute_develop_text": {},
-    "contribute_develop_text_2": "You can join the Open Food Facts Slack chatroom which is the preferred way to ask questions.",
+    "contribute_develop_text_2": "Csatlakozhat az Open Food Facts Slack csevegőszobához, amely a kérdések feltevésének kedvelt módja.",
     "@contribute_develop_text_2": {},
     "contribute_develop_dev_mode_title": "Fejlesztői mód?",
     "contribute_develop_dev_mode_subtitle": "Fejlesztői mód aktiválása",
     "contribute_donate_title": "Adományozás",
     "@contribute_donate_title": {},
-    "contribute_donate_header": "Donate to Open Food Facts",
+    "contribute_donate_header": "Adományozzon az Open Food Facts számára",
     "@contribute_donate_header": {},
-    "contribute_enroll_alpha": "Enroll in internal alpha version",
+    "contribute_enroll_alpha": "Feliratkozás a belső alfa verzióra",
     "@contribute_enroll_alpha": {},
-    "contribute_enroll_alpha_warning": "Please acknowledge that with the internal alpha version, complete loss of data is possible, and the app may become unusable at any time !",
+    "contribute_enroll_alpha_warning": "Cegye figyelembe, hogy a belső alfa verzióval a teljes adatvesztés is lehetséges, és az alkalmazás bármikor használhatatlanná válhat!",
     "@contribute_enroll_alpha_warning": {},
     "contribute_improve_ProductsToBeCompleted": "Kiegészítendő termékek",
     "@contribute_improve_ProductsToBeCompleted": {
@@ -370,7 +370,7 @@
     "@contribute_improve_header": {
         "description": "Button label + page title: Ways to improve the database"
     },
-    "contribute_improve_text": "The database is the core of the project. It's easy and very quick to help. You can download the mobile app for your phone, and start adding or improving products.\n\nOn the other hand, Open Food Facts website offers many ways to contribute: ",
+    "contribute_improve_text": "Az adatbázis a projekt magja. Könnyen és nagyon gyorsan hozzá tud járulni. Letöltheti a mobilalkalmazást telefonjára, és megkezdheti a termékek hozzáadását vagy kiegészítését.\n\nAz OpenFoodFacts webhely pedig számos, további módot kínál a hozzájárulásra: ",
     "@contribute_improve_text": {},
     "contribute_translate_header": "Fordítás",
     "@contribute_translate_header": {
@@ -380,12 +380,12 @@
     "@contribute_translate_link_text": {
         "description": "Button label: Opens the Crowdin translation portal"
     },
-    "contribute_translate_text": "Open Food Facts is a global project, containing products from more than 160 countries. Open Food Facts is translated into dozens of languages, with constantly evolving content.",
+    "contribute_translate_text": "Az OpenFoodFacts egy globális projekt, amely több mint 160 ország termékeit tartalmazza. Az OpenFoodFacts több tucat nyelvre van lefordítva, folyamatosan fejlődő tartalommal.",
     "@contribute_translate_text": {},
     "contribute_translate_text_2": "A fordítás a projekt egyik legfontosabb feladatai közé tartozik",
     "@contribute_translate_text_2": {},
     "contribute_join_skill_pool": "Contribute your skills to Open Food Facts. Join the skill pool!",
-    "contribute_share_header": "Share Open Food Facts with your friends",
+    "contribute_share_header": "Ossza meg barátaival az OpenFoodFacts-et",
     "@contribute_share_header": {},
     "contribute_share_content": "I wanted to let you know about the app I've been using, Open Food Facts, which allows you to get the health and environmental impacts of your food, in a personalized way. It works by scanning the barcodes on the packaging. Finally it's free, does not require registration, and you can even help increase the number of products decyphered. Here's the link to get it for your phone: https://openfoodfacts.app",
     "@contribute_share_content": {
@@ -1513,7 +1513,7 @@
     "@edit_product_form_item_ingredients_title": {
         "description": "Product edition - Ingredients - Title (note: this section was previously called Ingredients & Origins)"
     },
-    "edit_product_form_item_add_valid_item_tooltip": "Hozzáad",
+    "edit_product_form_item_add_valid_item_tooltip": "Hozzáadás",
     "edit_product_form_item_add_invalid_item_tooltip": "Please enter a text first",
     "edit_product_form_item_remove_item_tooltip": "Remove",
     "edit_product_form_item_packaging_title": "Recycling instructions photo",
@@ -1540,7 +1540,7 @@
     "@product_field_website_title": {
         "description": "Title of a product field: website"
     },
-    "completed_basic_details_btn_text": "Complete basic details",
+    "completed_basic_details_btn_text": "Alapvető adatok kitöltés",
     "not_implemented_snackbar_text": "Not implemented yet",
     "category_picker_page_appbar_text": "Kategóriák",
     "edit_ingredients_extract_ingredients_btn_text": "Extract ingredients from the photo",
@@ -2136,7 +2136,7 @@
     "@signup_page_terms_of_use_line1": {
         "description": "User consent for terms of use (line 1)"
     },
-    "signup_page_terms_of_use_line2": "felhasználási és hozzájárulási feltételek",
+    "signup_page_terms_of_use_line2": "felhasználási és hozzájárulási feltételeivel",
     "@signup_page_terms_of_use_line2": {
         "description": "User consent for terms of use (line 2)"
     },
@@ -2162,7 +2162,7 @@
             }
         }
     },
-    "summary_card_button_add_basic_details": "Complete basic details",
+    "summary_card_button_add_basic_details": "Alapvető adatok kitöltés",
     "@summary_card_button_add_basic_details": {
         "description": "Summary card - Button to add details about the product"
     },
@@ -2951,7 +2951,7 @@
     "@action_change_list": {
         "description": "Action to change the current visible list"
     },
-    "product_list_create": "Létrehoz",
+    "product_list_create": "Létrehozás",
     "@product_list_create": {
         "description": "Button label to create a new list (short word)"
     },
