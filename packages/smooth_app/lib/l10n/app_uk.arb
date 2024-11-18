@@ -3211,11 +3211,11 @@
     "@product_page_action_bar_item_disable": {
         "description": "Accessibility label to disable action (= make it invisible)"
     },
-    "product_add_a_language": "Add a language",
+    "product_add_a_language": "Додати мову",
     "@product_add_a_language": {
         "description": "Button to add a language (eg: for photos) to a product"
     },
-    "barcode_accessibility_label": "Barcode {barcode}",
+    "barcode_accessibility_label": "Штрих-код: {barcode}",
     "@barcode_accessibility_label": {
         "description": "Accessibility label for a barcode image",
         "placeholders": {
@@ -3224,23 +3224,23 @@
             }
         }
     },
-    "carousel_close_tooltip": "Remove this product from the carousel",
+    "carousel_close_tooltip": "Видалити цей товар з каруселі",
     "@carousel_close_tooltip": {
         "description": "A message explaining the goal of the Close button on a card of the carousel"
     },
-    "carousel_unsupported_header": "Unsupported barcode!",
+    "carousel_unsupported_header": "Штрих-код не підтримується!",
     "@carousel_unsupported_header": {
         "description": "A label on top of the carousel card when the barcode is not supported by the app"
     },
-    "carousel_unsupported_title": "Ooops!",
-    "carousel_unsupported_text": "The barcode scanned is not supported by Open Food Facts!",
-    "carousel_error_header": "Error!",
+    "carousel_unsupported_title": "Йой, халепа!",
+    "carousel_unsupported_text": "Відсканований штрих-код не підтримується Open Food Facts!",
+    "carousel_error_header": "Помилка!",
     "@carousel_error_header": {
         "description": "A label on top of the carousel card when there is an error (mainly network issues)"
     },
-    "carousel_error_title": "It's a bummer!",
-    "carousel_error_text_1": "We couldn't download information on this barcode:",
-    "carousel_error_text_2": "Please check your Internet connection or click this button:",
+    "carousel_error_title": "Це облом!",
+    "carousel_error_text_1": "Нам не вдалося завантажити інформацію про цей штрих-код:",
+    "carousel_error_text_2": "Перевірте підключення до Інтернету або натисніть цю кнопку:",
     "@carousel_error_text_2": {
         "description": "Please keep the ** syntax to make the text bold"
     },
@@ -3249,21 +3249,21 @@
     "@carousel_unknown_product_header": {
         "description": "A label on top of the carousel card when the product is not in the database (= it needs to be created)"
     },
-    "carousel_unknown_product_title": "Congratulations!\nYou've found __the rare gem!__",
+    "carousel_unknown_product_title": "Щиро вітаю!\nВи знайшли __рідкісний камінь!__",
     "@carousel_unknown_product_title": {
         "description": "Please keep the __ syntax to underline the text"
     },
-    "carousel_unknown_product_text": "Our collaborative database contains more than **3 million products**, but this barcode doesn't exist: ",
+    "carousel_unknown_product_text": "Наша спільна база даних містить понад **3 млн продуктів**, але цей штрих-код не існує: ",
     "@carousel_unknown_product_text": {
         "description": "Please keep the ** syntax to make the text bold"
     },
     "carousel_unknown_product_button": "Додати цей продукт",
-    "carousel_loading_header": "Loading information...",
+    "carousel_loading_header": "Завантаження інформації...",
     "@carousel_loading_header": {
         "description": "A label on top of the carousel card when data about the product is loading"
     },
-    "carousel_loading_title": "You've just scanned a product with the following barcode:",
-    "carousel_loading_text": "We are searching for it in our database of more than **3 million products!**",
+    "carousel_loading_title": "Ви щойно відсканували продукт із таким штрих-кодом:",
+    "carousel_loading_text": "Ми шукаємо його в нашій базі даних із понад **3 мільйонів продуктів!**",
     "@carousel_loading_text": {
         "description": "Please keep the ** syntax to make the text bold"
     }
