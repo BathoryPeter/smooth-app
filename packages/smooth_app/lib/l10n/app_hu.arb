@@ -1160,7 +1160,7 @@
     "@refuse": {
         "description": "Button to decline the request of sending the anonymous analytics"
     },
-    "ask_me_later_button_label": "Later",
+    "ask_me_later_button_label": "Később",
     "@ask_me_later": {
         "description": "Button to ignore the camera permission request"
     },
@@ -1177,67 +1177,67 @@
             }
         }
     },
-    "onboarding_home_welcome_text1": "Üdvözöljük!",
-    "onboarding_home_welcome_text2": "The app that helps you choose food that is good for **you** and the **planet**!",
+    "onboarding_home_welcome_text1": "Üdvözlünk!",
+    "onboarding_home_welcome_text2": "Az alkalmazás, ami segít olyan élelmiszert választani, ami jó **Önnek** és a **bolygónak**!",
     "@onboarding_home_welcome_text2": {
         "description": "Onboarding home screen welcome text, text surrounded by * will be bold"
     },
     "onboarding_continue_button": "Continue",
-    "onboarding_welcome_loading_dialog_title": "Loading your first example product",
+    "onboarding_welcome_loading_dialog_title": "Az első példa termék betöltése",
     "@onboarding_welcome_loading_dialog_title": {
         "description": "Title for the onboarding loading dialog"
     },
-    "onboarding_welcome_loading_error": "Seems like there is no example product in your language",
+    "onboarding_welcome_loading_error": "Úgy tűnik, nincs példa termék az Ön nyelvén",
     "@onboarding_welcome_loading_error": {
         "description": "Seems like there is no example product in your language"
     },
-    "product_list_your_ranking": "Your ranking",
+    "product_list_your_ranking": "Az Ön helyezése",
     "@product_list_your_ranking": {
         "description": "Your ranking screen title"
     },
-    "product_list_empty_icon_desc": "History not available",
+    "product_list_empty_icon_desc": "Az előzmények nem érhetők el",
     "@product_list_icon_desc": {
         "description": "When the history list is empty, icon description (for accessibility) of the message explaining to start scanning"
     },
-    "product_list_empty_title": "Start scanning",
+    "product_list_empty_title": "Leolvasás indítása",
     "@product_list_empty_title": {
         "description": "When the history list is empty, title of the message explaining to start scanning"
     },
-    "product_list_empty_message": "A beolvasott termékek itt fognak megjelenni és megtekintheti a velük kapcsolatos részleteket",
+    "product_list_empty_message": "A leolvasott termékek itt fognak megjelenni, amelyekről részletes információkat olvashat",
     "@product_list_empty_message": {
         "description": "When the history list is empty, body of the message explaining to start scanning"
     },
-    "product_list_reloading_in_progress_multiple": "Refreshing {count,plural,  =0{product} =1{product} other{products}} in your history",
+    "product_list_reloading_in_progress_multiple": "{count,plural,  one {}=0{Termék} =1{Termék} other{Termékek}} frissítése az előzményekben",
     "@product_list_reloading_in_progress_multiple": {
         "description": "Message to show while loading previous scanned items",
         "placeholders": {
             "count": {}
         }
     },
-    "product_list_reloading_success_multiple": "{count,plural,  =0{Product} =1{Product} other{Products}} refresh complete",
+    "product_list_reloading_success_multiple": "{count,plural,  one {}=0{A termék} =1{A termék} other{A termékek}} frissítése befejeződött",
     "@product_list_reloading_success_multiple": {
         "description": "Message to show once previous scanned items are loaded",
         "placeholders": {
             "count": {}
         }
     },
-    "loading_dialog_default_title": "Downloading data",
+    "loading_dialog_default_title": "Adatok letöltése",
     "@loading_dialog_default_title": {
         "description": "Default loading dialog title"
     },
-    "loading_dialog_default_error_message": "Could not download data",
+    "loading_dialog_default_error_message": "Nem sikerült letölteni az adatokat",
     "@loading_dialog_default_error_message": {
         "description": "Default loading dialog error message"
     },
-    "account_delete": "Delete account",
+    "account_delete": "Fiók törlése",
     "@account_delete": {
         "description": "Delete account button (user profile)"
     },
-    "account_deletion_subject": "Delete my account",
+    "account_deletion_subject": "Fiókom törlése",
     "@account_deletion_subject": {
         "description": "Subject of the webview open when the user wants to delete his account"
     },
-    "user_profile": "Account",
+    "user_profile": "Fiók",
     "@user_profile": {
         "description": "User account (if connected)"
     },
@@ -1245,8 +1245,8 @@
     "@user_profile_title_guest": {
         "description": "When the user is not connected"
     },
-    "user_profile_subtitle_guest": "Sign-in or sign-up to join the Open Food Facts community",
-    "user_profile_title_id_email": "Open Food Facts login: {email}",
+    "user_profile_subtitle_guest": "Jelentkezzen be vagy regisztráljon, és csatlakozzon az Open Food Facts közösséghez",
+    "user_profile_title_id_email": "Open Food Facts bejelentkezés: {email}",
     "@user_profile_title_id_email": {
         "description": "User login (when it's an email)",
         "placeholders": {
@@ -1255,7 +1255,7 @@
             }
         }
     },
-    "user_profile_title_id_default": "Welcome {id}!",
+    "user_profile_title_id_default": "Üdvözlünk, {id}!",
     "@user_profile_title_id_default": {
         "description": "User login (when it's an id)",
         "placeholders": {
@@ -1264,11 +1264,11 @@
             }
         }
     },
-    "email_subject_account_deletion": "Delete account",
+    "email_subject_account_deletion": "Fiók törlése",
     "@email_subject_account_deletion": {
         "description": "Email subject for an account deletion"
     },
-    "email_body_account_deletion": "Hi there, please delete my Open Food Facts account: {userId}",
+    "email_body_account_deletion": "Üdvözlöm, kérem, törölje Open Food Facts fiókomat: {userId}",
     "@email_body_account_deletion": {
         "description": "Email body for an account deletion",
         "placeholders": {
@@ -1277,31 +1277,31 @@
             }
         }
     },
-    "settings_app_app": "Application",
-    "settings_app_data": "Privacy & monitoring",
-    "settings_app_camera": "Camera",
+    "settings_app_app": "Alkalmazás",
+    "settings_app_data": "Adatvédelem és megfigyelés",
+    "settings_app_camera": "Kamera",
     "settings_app_products": "Termékek",
-    "settings_app_miscellaneous": "Miscellaneous",
+    "settings_app_miscellaneous": "Egyéb",
     "@camera_settings_title": {
         "description": "Name of the camera section in the settings"
     },
-    "camera_play_sound_title": "Play a sound on scan",
+    "camera_play_sound_title": "Hang lejátszása leolvasáskor",
     "@camera_play_sound_title": {
         "description": "Title for the Camera play sound toggle"
     },
-    "camera_play_sound_subtitle": "Will beep on each successful scan",
+    "camera_play_sound_subtitle": "Csippan egyet minden sikeres leolvasásnál",
     "@camera_play_sound_subtitle": {
         "description": "SubTitle for the Camera play sound toggle"
     },
-    "camera_window_accessibility_label": "Scan a barcode with your camera",
+    "camera_window_accessibility_label": "Olvasson le egy vonalkódot a kamerával",
     "@camera_window_accessibility_label": {
         "description": "Accessibility label for the camera window"
     },
-    "app_haptic_feedback_title": "Vibration & Haptics",
+    "app_haptic_feedback_title": "Rezgés és tapintás",
     "@app_haptic_feedback_title": {
         "description": "Title for the Haptic feedback toggle"
     },
-    "app_haptic_feedback_subtitle": "Vibrations after executing some actions (barcode decoded, product removed…).",
+    "app_haptic_feedback_subtitle": "Rezgés bizonyos műveletek végrehajtása után (vonalkód dekódolva, termék eltávolítva…).",
     "@app_haptic_feedback_subtitle": {
         "description": "SubTitle for the Haptic feedback toggle"
     },
@@ -1309,7 +1309,7 @@
     "@crash_reporting_toggle_title": {
         "description": "Title for the Crash reporting toggle"
     },
-    "crash_reporting_toggle_subtitle": "When enabled, crash reports are automatically submitted to Open Food Facts' error tracking system, so that bugs can be fixed and thus improve the app.",
+    "crash_reporting_toggle_subtitle": "Ha engedélyezve van, a rendszer automatikusan elküldi az összeomlási jelentéseket az Open Food Facts hibakövető rendszerébe, így a hibák kijavíthatók, és ezáltal fejlődik az alkalmazás.",
     "@crash_reporting_toggle_subtitle": {
         "description": "SubTitle for the Crash reporting toggle"
     },
@@ -1317,7 +1317,7 @@
     "@send_anonymous_toggle_title": {
         "description": "Title for the Send anonymous data toggle"
     },
-    "send_anonymous_data_toggle_subtitle": "When enabled, some anonymous information regarding app usage will be sent to the Open Food Facts servers, so that we can understand how and how much features are used in order to improve them.",
+    "send_anonymous_data_toggle_subtitle": "Ha engedélyezve van, az alkalmazás használatával kapcsolatban néhány névtelen információt elküldünk az Open Food Facts szerverekre, hogy megértsük, hogyan és mennyi funkciót használ, azok fejlesztése céljából.",
     "@send_anonymous_toggle_subtitle": {
         "description": "SubTitle for the Send anonymous data toggle"
     },
@@ -1329,7 +1329,7 @@
     "@permission_photo_error": {
         "description": "When the camera/photo permission failed to be acquired (!= denied)"
     },
-    "permission_photo_denied_title": "Allow camera use to scan barcodes",
+    "permission_photo_denied_title": "Lehetővé teszi a kamera használatát vonalkódok beolvasásához",
     "permission_photo_denied_message": "For an enhanced experience, please allow {appName} to access your camera. You will be able to directly scan barcodes.",
     "@permission_photo_denied_message": {
         "description": "When the camera/photo permission is denied by user",
@@ -2615,7 +2615,7 @@
     "rate_app": "Rate the app",
     "app_rating_dialog_title": "Nagyszerű! Tudasd másokkal, hogy mit gondolsz erről az appról!",
     "app_rating_dialog_positive_action": "Rate the app",
-    "app_rating_dialog_negative_action": "Later",
+    "app_rating_dialog_negative_action": "Később",
     "app_rating_dialog_title_enjoying_app": "Are you enjoying this app?",
     "app_rating_dialog_title_enjoying_positive_actions": "Yeah!",
     "not_really": "Not really",
