@@ -1330,7 +1330,7 @@
         "description": "When the camera/photo permission failed to be acquired (!= denied)"
     },
     "permission_photo_denied_title": "Lehetővé teszi a kamera használatát vonalkódok beolvasásához",
-    "permission_photo_denied_message": "For an enhanced experience, please allow {appName} to access your camera. You will be able to directly scan barcodes.",
+    "permission_photo_denied_message": "A jobb élmény érdekében engedélyezze, hogy az {appName} hozzáférjen a kamerához. Így közvetlenül le tudja majd olvasni a vonalkódokat.",
     "@permission_photo_denied_message": {
         "description": "When the camera/photo permission is denied by user",
         "placeholders": {
@@ -1339,19 +1339,19 @@
             }
         }
     },
-    "permission_photo_denied_button": "Allow",
+    "permission_photo_denied_button": "Engedélyezés",
     "@permission_photo_denied_button": {
         "description": "When the camera/photo permission is denied by user"
     },
-    "permission_photo_denied_dialog_settings_title": "Permission denied",
-    "permission_photo_denied_dialog_settings_message": "As you've previously denied the camera permission, you must allow it manually from the Settings.",
+    "permission_photo_denied_dialog_settings_title": "Engedély megtagadva",
+    "permission_photo_denied_dialog_settings_message": "Mivel korábban megtagadta a kamera engedélyét, manuálisan kell engedélyeznie azt a Beállításokban.",
     "permission_photo_denied_dialog_settings_button_open": "Beállítások megnyitása",
     "permission_photo_denied_dialog_settings_button_cancel": "Mégse",
-    "permission_photo_none_found": "No camera detected",
+    "permission_photo_none_found": "Nem található kamera",
     "@permission_photo_none_found": {
         "description": "Message for the user when no camera was detected, replacing the barcode scanner"
     },
-    "permission_photo_denied": "No camera access granted",
+    "permission_photo_denied": "Nincs kamera hozzáférés engedélyezve",
     "@permission_photo_denied": {
         "description": "When the camera/photo permission is denied by user"
     },
@@ -1363,8 +1363,8 @@
     "@edit_product_label_short": {
         "description": "Edit product button short label (only the verb)"
     },
-    "edit_product_form_item_add_action": "Add a new {itemType}",
-    "description": "Tooltip to show when the user long presses the (+) button",
+    "edit_product_form_item_add_action": "Új {itemType} hozzáadása",
+    "description": "Buboréksúgó, amely akkor jelenik meg, amikor a felhasználó hosszan megnyomja a (+) gombot",
     "@edit_product_form_item_add_action": {
         "placeholders": {
             "itemType": {
@@ -1372,19 +1372,19 @@
             }
         }
     },
-    "edit_product_form_item_details_title": "Basic details",
+    "edit_product_form_item_details_title": "Alapadatok",
     "@edit_product_form_item_details_title": {
         "description": "Product edition - Basic Details - Title"
     },
-    "edit_product_form_item_details_subtitle": "Product name, brand, quantity",
+    "edit_product_form_item_details_subtitle": "Termék neve, márka, mennyiség",
     "@edit_product_form_item_details_subtitle": {
         "description": "Product edition - Basic Details - Subtitle"
     },
-    "edit_product_form_item_other_details_title": "Additional details",
+    "edit_product_form_item_other_details_title": "További adatok",
     "@edit_product_form_item_other_details_title": {
         "description": "Product edition - Other Details - Title"
     },
-    "edit_product_form_item_other_details_subtitle": "Website…",
+    "edit_product_form_item_other_details_subtitle": "Weboldal…",
     "@edit_product_form_item_other_details_subtitle": {
         "description": "Product edition - Other Details - Subtitle"
     },
@@ -1392,15 +1392,15 @@
     "@edit_product_form_item_photos_title": {
         "description": "Product edition - Photos - Title"
     },
-    "edit_product_form_item_photos_subtitle": "Add or refresh photos",
+    "edit_product_form_item_photos_subtitle": "Fényképek hozzáadása vagy frissítése",
     "@edit_product_form_item_photos_subtitle": {
         "description": "Product edition - Photos - SubTitle"
     },
-    "edit_product_form_item_labels_title": "Labels & Certifications",
+    "edit_product_form_item_labels_title": "Címkék és tanúsítványok",
     "@edit_product_form_item_labels_title": {
         "description": "Product edition - Labels - Title"
     },
-    "edit_product_form_item_labels_subtitle": "Environmental, Quality labels…",
+    "edit_product_form_item_labels_subtitle": "Környezetvédelmi, minőségi címkék…",
     "@edit_product_form_item_labels_subtitle": {
         "description": "Product edition - Labels - SubTitle"
     },
@@ -1428,7 +1428,7 @@
     "@edit_product_form_item_origins_title": {
         "description": "Product edition - Origins - Title"
     },
-    "edit_product_form_item_origins_hint": "Input an origin",
+    "edit_product_form_item_origins_hint": "Adja meg a származást",
     "@edit_product_form_item_origins_hint": {
         "description": "Product edition - Origins - input textfield hint"
     },
@@ -1436,11 +1436,11 @@
     "@edit_product_form_item_origins_type": {
         "description": "Product edition - Origins - input textfield type"
     },
-    "edit_product_form_item_origins_explainer_1": "Add any indications of origins you can find on the packaging. You need not worry about origins indicated directly in the ingredient list.",
+    "edit_product_form_item_origins_explainer_1": "Adjon hozzá minden, a csomagoláson található eredetmegjelölést. Nem kell aggódnia a közvetlenül az összetevők listáján feltüntetett eredet miatt.",
     "@edit_product_form_item_origins_explainer_1": {
         "description": "Product edition - Origins - input explainer, part 1"
     },
-    "edit_product_form_item_origins_explainer_2": "Examples: Beef from Argentina, The soy does not come from the European Union",
+    "edit_product_form_item_origins_explainer_2": "Példák: Argentínából származó marhahús, A szója nem az Európai Unióból származik",
     "@edit_product_form_item_origins_explainer_2": {
         "description": "Product edition - Origins - input explainer, part 2"
     },
@@ -1448,7 +1448,7 @@
     "@edit_product_form_item_countries_title": {
         "description": "Product edition - Countries - Title"
     },
-    "edit_product_form_item_countries_hint": "Input a country",
+    "edit_product_form_item_countries_hint": "Adjon meg egy országot",
     "@edit_product_form_item_countries_hint": {
         "description": "Product edition - Countries - input textfield hint"
     },
@@ -1456,15 +1456,15 @@
     "@edit_product_form_item_countries_type": {
         "description": "Product edition - Countries - input textfield type"
     },
-    "edit_product_form_item_countries_explanations": "Countries where the product is widely available (not including stores specialising in foreign products).",
+    "edit_product_form_item_countries_explanations": "Azon országok, ahol a termék széles körben elérhető (a külföldi termékekre szakosodott üzletek kivételével).",
     "@edit_product_form_item_countries_explanations": {
         "description": "Product edition - Countries - explanations"
     },
-    "edit_product_form_item_emb_codes_title": "Származási kód (EMB vagy EK üzemkód)",
+    "edit_product_form_item_emb_codes_title": "Származási kód (EK-üzemkód)",
     "@edit_product_form_item_emb_codes_title": {
         "description": "Product edition - Traceability codes - Title"
     },
-    "edit_product_form_item_emb_codes_hint": "EMB 53062, HU 62.448.034 EK, 84 R 20, 33 RECOLTANT 522",
+    "edit_product_form_item_emb_codes_hint": "HU 123 EK, EMB 53062, 84 R 20, 33 RECOLTANT 522",
     "@edit_product_form_item_emb_codes_hint": {
         "description": "Product edition - Traceability Codes - input textfield hint"
     },
@@ -1472,7 +1472,7 @@
     "@edit_product_form_item_emb_codes_type": {
         "description": "Product edition - Traceability Codes - input textfield type"
     },
-    "edit_product_form_item_emb_codes_explanations": "In Europe, code in an ellipse with the 2 country initials followed by a number and CE.\nExamples: EMB 53062, FR 62.448.034 CE, 84 R 20, 33 RECOLTANT 522",
+    "edit_product_form_item_emb_codes_explanations": "Európában egy ellipszisben található kód az ország két kezdőbetűjével, amelyet egy szám és EK (vagy EC vagy CE) követ.\nPéldák: HU 123 EK, FR 62.448.034 CE, EMB 53062",
     "@edit_product_form_item_emb_codes_examples": {
         "description": "Product edition - EMB Codes - explanations"
     },
