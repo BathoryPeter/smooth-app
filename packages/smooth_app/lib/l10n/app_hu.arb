@@ -1152,11 +1152,11 @@
             }
         }
     },
-    "authorize_button_label": "Authorise",
+    "authorize_button_label": "Engedélyezés",
     "@authorize": {
         "description": "Button to accept the request of sending the anonymous analytics or authorize the camera permission"
     },
-    "refuse_button_label": "Refuse",
+    "refuse_button_label": "Visszautasítás",
     "@refuse": {
         "description": "Button to decline the request of sending the anonymous analytics"
     },
@@ -1164,11 +1164,11 @@
     "@ask_me_later": {
         "description": "Button to ignore the camera permission request"
     },
-    "are_you_sure": "Are you sure?",
+    "are_you_sure": "Biztos benne?",
     "@are_you_sure": {
         "description": "Are you sure?"
     },
-    "knowledge_panel_text_source": "Go further on {sourceName}",
+    "knowledge_panel_text_source": "További információk: {sourceName}",
     "@knowledge_panel_text_source": {
         "description": "When we show information from for example Wikipedia or health authorities, this is the button label to open the source website",
         "placeholders": {
@@ -1177,7 +1177,7 @@
             }
         }
     },
-    "onboarding_home_welcome_text1": "Welcome !",
+    "onboarding_home_welcome_text1": "Üdvözöljük!",
     "onboarding_home_welcome_text2": "The app that helps you choose food that is good for **you** and the **planet**!",
     "@onboarding_home_welcome_text2": {
         "description": "Onboarding home screen welcome text, text surrounded by * will be bold"
