@@ -663,9 +663,9 @@
     "new_product_subtitle_nova": "Az élelmiszerkategória és az összetevők kitöltésével megtudhatja",
     "new_product_desc_nova_unknown": "Az élelmiszer-feldolgozottság szintje ismeretlen",
     "new_product_title_pictures": "Új termék",
-    "new_product_title_pictures_details": "Please take the following photos and the Open Food Facts engine can work out the rest!",
-    "new_product_title_misc": "And some basic data…",
-    "new_product_done_msg": "Thanks for your contribution “{username}”!",
+    "new_product_title_pictures_details": "Készítse el az alábbi fotókat, és az OpenFoodFacts motorja elvégzi a többi munkát!",
+    "new_product_title_misc": "És pár alapvető adat…",
+    "new_product_done_msg": "Köszönjük a közreműködését, {username}!",
     "@new_product_done_msg": {
         "description": "Thank you message on the end of new product page, after finish adding a new product.",
         "placeholders": {
@@ -675,15 +675,15 @@
             }
         }
     },
-    "new_product_done_msg_no_user": "Thanks for your contribution!",
-    "new_product_done_button_label": "Discover the completed product",
+    "new_product_done_msg_no_user": "Köszönjük a közreműködést!",
+    "new_product_done_button_label": "Tekintse meg az elkészült terméket",
     "@new_product_done_button_label": {
         "description": "Button at the end of new product page, that takes you to completed product"
     },
-    "hey_incomplete_product_message": "Tap to answer 3 questions NOW to compute Nutri-Score, Eco-Score & Ultra-processing (NOVA)!",
-    "hey_incomplete_product_message_beauty": "Tap now to answer 2 questions to help analyze this cosmetic!",
-    "hey_incomplete_product_message_pet_food": "Tap now to answer 3 questions to help analyze this pet food product!",
-    "hey_incomplete_product_message_product": "Tap now to help complete this product!",
+    "hey_incomplete_product_message": "Válaszoljon meg 3 kérdést MOST a Nutri-Score, Eco-Score és a feldolgozottság (NOVA) kiszámításához!",
+    "hey_incomplete_product_message_beauty": "Válaszoljon meg 2 kérdést, és segítsen elemezni ezt a kozmetikumot!",
+    "hey_incomplete_product_message_pet_food": "Válaszoljon meg 3 kérdést, és segítsen elemezni ezt az állateledelt!",
+    "hey_incomplete_product_message_product": "Segítsen befejezni a terméket!",
     "nutritional_facts_photo_uploaded": "Nutrition facts photo uploaded",
     "@nutritional_facts_photo_uploaded": {},
     "recycling_photo_button_label": "Recycling photo",
