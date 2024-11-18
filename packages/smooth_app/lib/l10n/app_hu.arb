@@ -684,78 +684,78 @@
     "hey_incomplete_product_message_beauty": "Válaszoljon meg 2 kérdést, és segítsen elemezni ezt a kozmetikumot!",
     "hey_incomplete_product_message_pet_food": "Válaszoljon meg 3 kérdést, és segítsen elemezni ezt az állateledelt!",
     "hey_incomplete_product_message_product": "Segítsen befejezni a terméket!",
-    "nutritional_facts_photo_uploaded": "Nutrition facts photo uploaded",
+    "nutritional_facts_photo_uploaded": "Tápértékadatok fényképe feltöltve",
     "@nutritional_facts_photo_uploaded": {},
-    "recycling_photo_button_label": "Recycling photo",
+    "recycling_photo_button_label": "Újrahasznosítási fénykép",
     "@recycling_photo_button_label": {},
-    "recycling_photo_uploaded": "Recycling photo uploaded",
+    "recycling_photo_uploaded": "Újrahasznosítási fénykép feltöltve",
     "@recycling_photo_uploaded": {},
     "take_more_photo_button_label": "Készítsen további képeket",
     "@take_more_photo_button_label": {},
-    "other_photo_uploaded": "Miscellaneous photo uploaded",
+    "other_photo_uploaded": "További fénykép feltöltve",
     "@other_photo_uploaded": {},
     "retake_photo_button_label": "Új fotó",
     "@retake_photo_button_label": {
         "description": "Button clicking on which allows users to retake the last photo they took."
     },
-    "selecting_photo": "Selecting photo",
+    "selecting_photo": "Fénykép kiválasztása",
     "@selecting_photo": {
         "description": "Progress indicator when the users takes a photo"
     },
-    "uploading_image": "Uploading photo to the server",
+    "uploading_image": "Fénykép feltöltése a szerverre",
     "@uploading_image": {
         "description": "Message when a new picture is uploading to the server"
     },
-    "uploading_image_type_front": "Uploading front image to Open Food Facts",
+    "uploading_image_type_front": "Szemből készült kép feltöltése Open Food Factsre",
     "@uploading_image_type_front": {
         "description": "Message when a new front picture is being uploaded to the server"
     },
-    "uploading_image_type_ingredients": "Uploading ingredients image to Open Food Facts",
+    "uploading_image_type_ingredients": "Összetevők képének feltöltése Open Food Factsre",
     "@uploading_image_type_ingredients": {
         "description": "Message when a new ingredients picture is being uploaded to the server"
     },
-    "uploading_image_type_nutrition": "Uploading nutrition image to Open Food Facts",
+    "uploading_image_type_nutrition": "Tápérték kép feltöltése Open Food Factsre",
     "@uploading_image_type_nutrition": {
         "description": "Message when a new nutrition picture is being uploaded to the server"
     },
-    "uploading_image_type_packaging": "Uploading packaging image to Open Food Facts",
+    "uploading_image_type_packaging": "Csomagolás képének feltöltése Open Food Factsre",
     "@uploading_image_type_packaging": {
         "description": "Message when a new packaging picture is being uploaded to the server"
     },
-    "uploading_image_type_other": "Uploading other image to Open Food Facts",
+    "uploading_image_type_other": "További kép feltöltése Open Food Factsre",
     "@uploading_image_type_other": {
         "description": "Message when a new other picture is being uploaded to the server"
     },
-    "uploading_image_type_generic": "Uploading image to Open Food Facts",
+    "uploading_image_type_generic": "Kép feltöltése Open Food Factsre",
     "@uploading_image_type_generic": {
         "description": "Message when a new picture is being uploaded to the server"
     },
-    "score_add_missing_ingredients": "Add missing ingredients",
-    "score_add_missing_packaging_image": "Add missing packaging image",
-    "score_add_missing_nutrition_facts": "Add missing nutrition facts",
-    "score_add_missing_product_category": "Select a category",
-    "score_add_missing_product_countries": "Add missing product countries",
-    "score_add_missing_product_emb": "Add missing product traceability codes",
-    "score_add_missing_product_labels": "Add missing product labels",
-    "score_add_missing_product_origins": "Add missing product origins",
-    "score_add_missing_product_stores": "Add missing product stores",
-    "score_update_nutrition_facts": "Update nutrition facts",
+    "score_add_missing_ingredients": "Hiányzó összetevők hozzáadása",
+    "score_add_missing_packaging_image": "Hiányzó csomagolási kép hozzáadása",
+    "score_add_missing_nutrition_facts": "Hiányzó tápértékadatok hozzáadása",
+    "score_add_missing_product_category": "Kategória kiválasztása",
+    "score_add_missing_product_countries": "Termék országainak pótlása",
+    "score_add_missing_product_emb": "Hiányzó üzemkódok hozzáadása",
+    "score_add_missing_product_labels": "Hiányzó címkék hozzáadása",
+    "score_add_missing_product_origins": "Hiányzó származási helyek hozzáadása",
+    "score_add_missing_product_stores": "Hiányzó boltok hozzáadása",
+    "score_update_nutrition_facts": "Tápértékadatok frissítése",
     "nutrition_page_title": "Tápértékadatok",
-    "nutrition_page_unspecified": "Nutrition facts are not specified on the product",
-    "nutrition_page_per_100g": "per 100g",
+    "nutrition_page_unspecified": "A tápértékadatok nincsenek feltüntetve a terméken",
+    "nutrition_page_per_100g": "100g-ra",
     "nutrition_page_per_serving": "adagonként",
     "nutrition_page_add_nutrient": "Tápanyag hozzáadása",
     "nutrition_page_serving_size": "Adag",
-    "nutrition_page_invalid_number": "Invalid number",
-    "nutrition_page_update_running": "Updating the product on the server…",
-    "nutrition_page_update_done": "Product updated!",
+    "nutrition_page_invalid_number": "Érvénytelen szám",
+    "nutrition_page_update_running": "Termék frissítése a szerveren…",
+    "nutrition_page_update_done": "A termék frissítve!",
     "more_photos": "További érdekes képek",
     "@more_photos": {},
-    "view_more_photo_button": "View all existing photos for this product",
+    "view_more_photo_button": "Termék meglévő fotóinak megtekintése",
     "@view_more_photo_button": {},
     "no_product_found": "Nem található termék",
     "@no_product_found": {},
-    "no_location_found": "No location found",
+    "no_location_found": "Hely nem található",
     "not_found": "nem található:",
     "refreshing_product": "Termék frissítése",
     "@refreshing_product": {
@@ -765,7 +765,7 @@
     "@product_refreshed": {
         "description": "Confirmation, that the product data refresh is done"
     },
-    "product_image_accessibility_label": "Image taken on {date}",
+    "product_image_accessibility_label": "Kép készítésének ideje: {date}",
     "@product_image_accessibility_label": {
         "placeholders": {
             "date": {
@@ -774,7 +774,7 @@
             }
         }
     },
-    "product_image_outdated_accessibility_label": "Image taken on {date}. This image may be outdated",
+    "product_image_outdated_accessibility_label": "Kép készítésének ideje: {date}. Ez a kép elavult lehet",
     "@product_image_outdated_accessibility_label": {
         "placeholders": {
             "date": {
@@ -783,21 +783,21 @@
             }
         }
     },
-    "product_image_outdated": "This image may be outdated",
-    "homepage_main_card_logo_description": "Welcome to Open Food Facts",
+    "product_image_outdated": "Ez a kép elavult lehet",
+    "homepage_main_card_logo_description": "Üdvözli az Open Food Facts",
     "@homepage_main_card_logo_description": {
         "description": "Description for accessibility of the Open Food Facts logo on the homepage"
     },
-    "homepage_main_card_subheading": "**Scan** a barcode or\n**search** for a product",
+    "homepage_main_card_subheading": "**Olvasson le** egy vonalkódot vagy\n**keressen** rá egy termékre",
     "@homepage_main_card_subheading": {
         "description": "Text between asterisks (eg: **My Text**) means text in bold. Please keep it."
     },
     "homepage_main_card_search_field_hint": "Search for a product",
-    "homepage_main_card_search_field_tooltip": "Start search",
+    "homepage_main_card_search_field_tooltip": "Keresés indítása",
     "@homepage_main_card_search_field_tooltip": {
         "description": "Description for accessibility of the search field on the homepage"
     },
-    "scan_tagline_news_item_accessibility": "Latest news: {news_title}",
+    "scan_tagline_news_item_accessibility": "Legfrissebb hírek: {news_title}",
     "@scan_tagline_news_item_accessibility": {
         "description": "Accessibility label for the title of a news",
         "placeholders": {
@@ -806,21 +806,21 @@
             }
         }
     },
-    "tagline_app_review": "Do you like the app?",
-    "tagline_app_review_button_positive": "I love it! 😍",
-    "tagline_app_review_button_negative": "Not really…",
-    "tagline_app_review_button_later": "Ask me later",
-    "tagline_feed_news_button": "Know more",
-    "app_review_negative_modal_title": "You don't like our app?",
-    "app_review_negative_modal_text": "Could you take a few seconds to tell us why?",
-    "app_review_negative_modal_positive_button": "Yes, absolutely!",
+    "tagline_app_review": "Tetszik az alkalmazás?",
+    "tagline_app_review_button_positive": "Imádom! 😍",
+    "tagline_app_review_button_negative": "Nem igazán…",
+    "tagline_app_review_button_later": "Kérdezzen rá később",
+    "tagline_feed_news_button": "Tudjon meg többet",
+    "app_review_negative_modal_title": "Nem tetszik az alkalmazásunk?",
+    "app_review_negative_modal_text": "Rászánna pár másodpercet, hogy elmondja nekünk, miért?",
+    "app_review_negative_modal_positive_button": "Igen, feltétlenül!",
     "app_review_negative_modal_negative_button": "Nem",
     "could_not_refresh": "Nem sikerült frissíteni a terméket",
     "@could_not_refresh": {
         "description": "The product data couldn't be refreshed"
     },
-    "product_internet_error_modal_title": "An error has occurred!",
-    "product_internet_error_modal_message": "We are unable to fetch information about this product due to a network error. Please check your internet connection and try again.\n\nInternal error:\n{error}",
+    "product_internet_error_modal_title": "Hiba történt.",
+    "product_internet_error_modal_message": "Hálózati hiba miatt nem tudtuk lekérni a termék adatait. Ellenőrizze internetkapcsolatát, és próbálja újra.\n\nBelső hiba:\n{error}",
     "@product_internet_error_modal_message": {
         "placeholders": {
             "error": {
@@ -829,32 +829,32 @@
             }
         }
     },
-    "product_tags_title": "Product Tags",
+    "product_tags_title": "Termék címkéi",
     "@product_tags_title": {
         "description": "The title for showing product tags, aka folksonomy data"
     },
-    "no_product_tags_found_message": "No tags found. Tags can be used to better group similar products. Tap to add.",
+    "no_product_tags_found_message": "Nem találhatók címkék. A címkék segítségével könnyebb csoportosítani a hasonló termékeket. Koppintson a hozzáadáshoz.",
     "@no_product_tags_found_message": {
         "description": "Message to show if there are no product tags found"
     },
-    "add_tag": "Add Tag",
-    "edit_tag": "Edit Tag",
-    "remove_tag": "Remove Tag",
-    "tag_key": "Key",
+    "add_tag": "Új címke",
+    "edit_tag": "Címke szerkesztése",
+    "remove_tag": "Címke eltávolítása",
+    "tag_key": "Kulcs",
     "tag_value": "Érték",
-    "invalid_key_format": "Invalid key format. Must be lowercase and no spaces.",
+    "invalid_key_format": "Kulcs formátum érvénytelen. Kisbetűsnek kell lennie, szóközök nélkül.",
     "@invalid_key_format": {
         "description": "Message to show if the key value for a new product tag is invalid. This logic is identical to whats being validated in the folksonomy api"
     },
     "product_internet_error": "Hálózati hiba miatt nem lehet információkat lekérni erről a termékről.",
-    "cached_results_from": "Show results from:",
+    "cached_results_from": "Ekkori eredmények megjelenítése:",
     "@cached_results_from": {
         "description": "Cached results from: x time ago (time ago should not be added to the string)"
     },
     "@Product Addition": {},
-    "added_product_thanks": "Köszönjük a terméket hozzáadását!",
+    "added_product_thanks": "Köszönjük, hogy hozzáadta ezt a terméket!",
     "@added_product_thanks": {},
-    "product_search_same_category": "Compare to Category",
+    "product_search_same_category": "Összehasonlítás kategóriával",
     "@product_search_same_category": {
         "description": "Button looking for the other products within the same category. Less than 30 characters"
     },
@@ -862,31 +862,31 @@
     "@product_search_same_category_short": {
         "description": "Button looking for the other products within the same category. Just the verb compare"
     },
-    "product_search_same_category_error": "This feature can only be used for products with a category.\n\nPlease edit the product to add a category.",
+    "product_search_same_category_error": "Ez a funkció csak kategorizált termékeknél használható.\n\nKategória hozzáadásához szerkessze a terméket.",
     "@product_search_same_category_error": {
         "description": "Button looking for the other products within the same category. Just the verb compare"
     },
-    "product_improvement_add_category": "Add a category to calculate the Nutri-Score.",
+    "product_improvement_add_category": "A Nutri-Score kiszámításához adjon hozzá egy kategóriát.",
     "@product_improvement_add_category": {
         "description": "Message for ProductImprovement.ADD_CATEGORY"
     },
-    "product_improvement_add_nutrition_facts": "Add nutrition facts to calculate the Nutri-Score.",
+    "product_improvement_add_nutrition_facts": "A Nutri-Score kiszámításához adjon hozzá tápértékadatokat.",
     "@product_improvement_add_nutrition_facts": {
         "description": "Message for ProductImprovement.ADD_NUTRITION_FACTS"
     },
-    "product_improvement_add_nutrition_facts_and_category": "Add nutrition facts and a category to calculate the Nutri-Score.",
+    "product_improvement_add_nutrition_facts_and_category": "A Nutri-Score kiszámításához adjon hozzá tápértékadatokat és egy kategóriát.",
     "@product_improvement_add_nutrition_facts_and_category": {
         "description": "Message for ProductImprovement.ADD_NUTRITION_FACTS_AND_CATEGORY"
     },
-    "product_improvement_categories_but_no_nutriscore": "The Nutri-Score for this product can't be calculated, which may be due to e.g. a non-standard category. If this is considered an error, please contact us.",
+    "product_improvement_categories_but_no_nutriscore": "Ehhez a termékhez nem számítható ki a Nutri-Score, aminek oka lehet például egy nem szabványos kategória. Ha ez hibának tekinthető, kérjük, vegye fel velünk a kapcsolatot.",
     "@product_improvement_categories_but_no_nutriscore": {
         "description": "Message for ProductImprovement.CATEGORIES_BUT_NO_NUTRISCORE"
     },
-    "product_improvement_obsolete_nutrition_image": "A tép érték kép elavult: kérjük frissítse azt.",
+    "product_improvement_obsolete_nutrition_image": "A tápértékek képe elavult: kérjük frissítse.",
     "@product_improvement_obsolete_nutrition_image": {
         "description": "Message for ProductImprovement.OBSOLETE_NUTRITION_IMAGE"
     },
-    "product_improvement_origins_to_be_completed": "The Eco-Score takes into account the origins of the ingredients. Please take a photo of the ingredient list and/or any geographic claim or edit the product, so they can be taken into account.",
+    "product_improvement_origins_to_be_completed": "Az Eco-Score figyelembe veszi az összetevők eredetét. Fényképezze le az összetevők listáját és/vagy bármilyen földrajzi állítást, vagy módosítsa a terméket úgy, hogy figyelembe lehessen venni azt.",
     "@product_improvement_origins_to_be_completed": {
         "description": "Message for ProductImprovement.ORIGINS_TO_BE_COMPLETED"
     },
