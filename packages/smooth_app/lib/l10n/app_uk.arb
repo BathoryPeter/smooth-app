@@ -842,7 +842,7 @@
     "remove_tag": "Remove Tag",
     "tag_key": "Key",
     "tag_value": "Цінність",
-    "invalid_key_format": "Invalid key format. Must be lowercase and no spaces.",
+    "invalid_key_format": "Невірний формат ключа. Повинен бути в нижньому регістрі і без пробілів.",
     "@invalid_key_format": {
         "description": "Message to show if the key value for a new product tag is invalid. This logic is identical to whats being validated in the folksonomy api"
     },
