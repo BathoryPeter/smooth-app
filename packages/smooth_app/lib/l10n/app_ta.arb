@@ -2425,8 +2425,8 @@
         "description": "Label for expanding nutrition facts table in application setting"
     },
     "expand_ingredients_body": "Keep the ingredients panel expanded",
-    "search_product_filter_visibility_title": "Show a filter in the search",
-    "search_product_filter_visibility_subtitle": "Select search site: Open Food Facts, Open Beauty Facts, Open Pet Food Facts or Open Products Facts",
+    "search_product_filter_visibility_title": "தேடலில் வடிப்பானைக் காட்டு",
+    "search_product_filter_visibility_subtitle": "தேடல் தளத்தைத் தேர்ந்தெடுக்கவும்: திறந்த உணவு உண்மைகள், திறந்த அழகு உண்மைகள், திறந்த விலங்கு உணவு உண்மைகள் அல்லது திறந்த தயாரிப்புகள் உண்மைகள்",
     "@search_product_filter_visibility_subtitle": {
         "description": "Label for showing the product type filter in the search bar"
     },
