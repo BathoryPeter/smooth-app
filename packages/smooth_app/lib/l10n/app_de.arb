@@ -2425,8 +2425,8 @@
         "description": "Label for expanding nutrition facts table in application setting"
     },
     "expand_ingredients_body": "Zutatenliste geöffnet lassen",
-    "search_product_filter_visibility_title": "Show a filter in the search",
-    "search_product_filter_visibility_subtitle": "Select search site: Open Food Facts, Open Beauty Facts, Open Pet Food Facts or Open Products Facts",
+    "search_product_filter_visibility_title": "Einen Filter in der Suche anzeigen",
+    "search_product_filter_visibility_subtitle": "Wählen Sie eine zu durchsuchende Seite: Open Food Facts, Open Beauty Facts, Open Pet Food Facts oder Open Products Facts",
     "@search_product_filter_visibility_subtitle": {
         "description": "Label for showing the product type filter in the search bar"
     },
