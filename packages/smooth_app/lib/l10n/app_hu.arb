@@ -1743,31 +1743,31 @@
     "@dev_preferences_ml_kit_subtitle": {
         "description": "User dev preferences - Enable ML Kit - Subtitle"
     },
-    "dev_preferences_product_additional_features_title": "Additional button on product page",
+    "dev_preferences_product_additional_features_title": "További gomb a termékoldalon",
     "@dev_preferences_product_additional_features_title": {
         "description": "User dev preferences - Additional buttons on product page - Title"
     },
-    "dev_preferences_edit_ingredients_title": "Edit ingredients via a knowledge panel button",
+    "dev_preferences_edit_ingredients_title": "Összetevők szerkesztése a tudnivalók panel gombjával",
     "@dev_preferences_edit_ingredients_title": {
         "description": "User dev preferences - Additional buttons on product page - Subtitle"
     },
-    "dev_preferences_export_history_title": "Export History",
+    "dev_preferences_export_history_title": "Előzmények exportálása",
     "@dev_preferences_export_history_title": {
         "description": "User dev preferences - Export history - Title"
     },
-    "dev_preferences_export_history_progress_error": "exception",
+    "dev_preferences_export_history_progress_error": "kivétel",
     "@dev_preferences_export_history_progress_error": {
         "description": "User dev preferences - Export history - Item - Error"
     },
-    "dev_preferences_export_history_progress_found": "product found",
+    "dev_preferences_export_history_progress_found": "megtalált termék",
     "@dev_preferences_export_history_progress_found": {
         "description": "User dev preferences - Export history - Item - Found"
     },
-    "dev_preferences_export_history_progress_not_found": "product NOT found",
+    "dev_preferences_export_history_progress_not_found": "NEM található termék",
     "@dev_preferences_export_history_progress_not_found": {
         "description": "User dev preferences - Export history - Item - Not found"
     },
-    "dev_preferences_export_history_dialog_title": "Export history",
+    "dev_preferences_export_history_dialog_title": "Előzmények exportálása",
     "@dev_preferences_export_history_dialog_title": {
         "description": "User dev preferences - Export history - Dialog title"
     },
@@ -1779,8 +1779,8 @@
     "@dev_preferences_button_negative": {
         "description": "User dev preferences - Negative button label"
     },
-    "dev_preferences_migration_title": "Data migration from V1",
-    "dev_preferences_migration_subtitle": "Status: {status}",
+    "dev_preferences_migration_title": "Adatmigráció V1-ről",
+    "dev_preferences_migration_subtitle": "Állapot: {status}",
     "@dev_preferences_migration_subtitle": {
         "placeholders": {
             "status": {
@@ -1788,25 +1788,25 @@
             }
         }
     },
-    "dev_preferences_migration_status_already_done": "success or fresh install",
-    "dev_preferences_migration_status_success": "success",
-    "dev_preferences_migration_status_error": "error",
+    "dev_preferences_migration_status_already_done": "sikeres vagy friss telepítés",
+    "dev_preferences_migration_status_success": "sikeres",
+    "dev_preferences_migration_status_error": "hiba",
     "dev_preferences_migration_status_in_progress": "folyamatban",
-    "dev_preferences_migration_status_required": "required (click to start)",
-    "dev_preferences_migration_status_not_started": "unknown",
-    "dev_preferences_import_history_subtitle": "Will clear history and put 3 products in there",
+    "dev_preferences_migration_status_required": "kötelező (kattintson az indításhoz)",
+    "dev_preferences_migration_status_not_started": "ismeretlen",
+    "dev_preferences_import_history_subtitle": "Törli az előzményeket, és 3 terméket tesz bele",
     "@dev_preferences_import_history_subtitle": {
         "description": "User dev preferences - Import history - Subtitle"
     },
-    "dev_preferences_news_custom_url_title": "Custom URL for news",
+    "dev_preferences_news_custom_url_title": "Egyéni URL a hírekhez",
     "@dev_preferences_news_custom_url_title": {
         "description": "News dev preferences - Custom URL for news - Title"
     },
-    "dev_preferences_news_custom_url_subtitle": "URL of the JSON file:",
+    "dev_preferences_news_custom_url_subtitle": "A JSON-fájl URL-je:",
     "@dev_preferences_news_custom_url_subtitle": {
         "description": "News dev preferences - Custom URL for news - Title"
     },
-    "dev_preferences_news_custom_url_empty_value": "Not set",
+    "dev_preferences_news_custom_url_empty_value": "Nincs beállítva",
     "@dev_preferences_news_custom_url_empty_value": {
         "description": "Message to show when the custom news URL is not set"
     },
@@ -1814,7 +1814,7 @@
     "@dev_preferences_news_provider_status_title": {
         "description": "News dev preferences - Status - Title"
     },
-    "dev_preferences_news_provider_status_subtitle": "Last refresh: {date}",
+    "dev_preferences_news_provider_status_subtitle": "Utolsó frissítés: {date}",
     "@dev_preferences_news_provider_status_subtitle": {
         "description": "News dev preferences - Custom URL for news - Subtitle",
         "placeholders": {
@@ -1827,13 +1827,13 @@
     "product_type_label_beauty": "Personal care",
     "product_type_label_pet_food": "Pet food",
     "product_type_label_product": "Egyéb",
-    "product_type_selection_title": "Product type",
-    "product_type_selection_subtitle": "Select the type of this product",
-    "product_type_selection_empty": "You need to select a product type first!",
+    "product_type_selection_title": "Terméktípus",
+    "product_type_selection_subtitle": "Válassza ki a termék típusát",
+    "product_type_selection_empty": "Először ki kell választania a termék típusát!",
     "@product_type_selection_empty": {
         "description": "Error message about product type that needs to be set"
     },
-    "product_type_selection_already": "You cannot change the product type ({productType})!",
+    "product_type_selection_already": "Nem módosíthatja a termék típusát ({productType})!",
     "@product_type_selection_already": {
         "description": "Error message about product type that cannot be set again",
         "placeholders": {
@@ -1842,16 +1842,16 @@
             }
         }
     },
-    "prices_app_dev_mode_flag": "Shortcut to Prices app on product page",
-    "prices_app_button": "Go to Prices app",
+    "prices_app_dev_mode_flag": "Árak alkalmazásra mutató gomb a termékoldalon",
+    "prices_app_button": "Tovább az Árak appba",
     "prices_generic_title": "Prices",
     "prices_add_n_prices": "{count,plural, =1{Add a price} other{App {count} prices}}",
-    "prices_send_n_prices": "{count,plural, =1{Send the price} other{Send {count} prices}}",
-    "prices_add_an_item": "Add an item",
+    "prices_send_n_prices": "{count,plural, one {}=1{Ár beküldése} other{{count} ár beküldése}}",
+    "prices_add_an_item": "Tétel hozzáadása",
     "prices_add_a_price": "Add a price",
-    "prices_add_a_receipt": "Add a receipt",
-    "prices_add_price_tags": "Add price tags",
-    "prices_barcode_already": "This barcode ({barcode}) is already in the list!",
+    "prices_add_a_receipt": "Nyugta hozzáadása",
+    "prices_add_price_tags": "Árcédulák hozzáadása",
+    "prices_barcode_already": "Ez a vonalkód ({barcode}) már rajta van a listán!",
     "@prices_barcode_already": {
         "description": "Error message about barcode being already there",
         "placeholders": {
@@ -1861,8 +1861,8 @@
         }
     },
     "prices_barcode_search_not_found": "Product not found",
-    "prices_barcode_search_none_yet": "No product yet",
-    "prices_barcode_search_running": "Looking for {barcode}",
+    "prices_barcode_search_none_yet": "Még nincs termék",
+    "prices_barcode_search_running": "{barcode} keresése",
     "@prices_barcode_search_running": {
         "description": "Dialog title about barcode look-up",
         "placeholders": {
@@ -1871,10 +1871,10 @@
             }
         }
     },
-    "prices_barcode_enter": "Enter the Barcode",
-    "prices_barcode_reader_action": "Barcode reader",
-    "prices_view_prices": "View the prices",
-    "prices_product_accessibility_summary": "{count,plural, =1{1 price} other{{count} prices}} for {product}",
+    "prices_barcode_enter": "Vonalkód beírása",
+    "prices_barcode_reader_action": "Vonalkódolvasó",
+    "prices_view_prices": "Árak megtekintése",
+    "prices_product_accessibility_summary": "{count,plural, one {}=1{1 ár} other{{count} ár}} ehhez: {product}",
     "@prices_product_accessibility_summary": {
         "description": "A card summarizing the number of prices for a product",
         "placeholders": {
