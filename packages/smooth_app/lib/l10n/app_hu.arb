@@ -1645,23 +1645,23 @@
     "@user_list_name_error_already": {
         "description": "Validation error about the name that is already used for another list"
     },
-    "user_list_name_error_same": "That is the same name",
+    "user_list_name_error_same": "Ez ugyanaz a név",
     "@user_list_name_error_same": {
         "description": "Validation error about the renamed name that is the same as the initial list name"
     },
-    "user_list_name_input_hint": "Name of the list",
+    "user_list_name_input_hint": "Lista neve",
     "@user_list_name_input_hint": {
         "description": "A hint to indicate that the user should input a name of a list"
     },
-    "try_again": "Try Again",
+    "try_again": "Újrapróbálkozás",
     "@try_again": {
         "description": "Label for buttons that try to repeat a failed action"
     },
-    "there_was_an_error": "There was an error",
+    "there_was_an_error": "Hiba történt",
     "@there_was_an_error": {
         "description": "Label that presents a error"
     },
-    "category_picker_no_category_found_message": "No category found for {items}",
+    "category_picker_no_category_found_message": "Nem található kategória a következőhöz: {items}",
     "@category_picker_no_category_found_message": {
         "description": "Label when no category is available",
         "placeholders": {
@@ -1670,27 +1670,27 @@
             }
         }
     },
-    "camera_toggle_camera": "Switch between back and front camera",
+    "camera_toggle_camera": "Váltás a hátsó és az elülső kamera között",
     "@camera_toggle_camera": {
         "description": "Explanation for the icon to switch between cameras"
     },
-    "camera_toggle_flash": "Turn ON or OFF the flash of the camera",
+    "camera_toggle_flash": "Vényképező vakujának BE vagy KI kapcsolása",
     "@camera_toggle_flash": {
         "description": "Explanation for the icon to turn on/off the flash"
     },
-    "camera_enable_flash": "Enable flash",
+    "camera_enable_flash": "Vaku bekapcsolása",
     "@camera_enable_flash": {
         "description": "Enable flash (tooltip)"
     },
-    "camera_disable_flash": "Disable flash",
+    "camera_disable_flash": "Vaku kikapcsolása",
     "@camera_disable_flash": {
         "description": "Disable flash (tooltip)"
     },
-    "camera_flash_error_dialog_title": "An error occurred!",
+    "camera_flash_error_dialog_title": "Hiba történt!",
     "@camera_flash_error_dialog_title": {
         "description": "Title of the dialog explaining that an error happened while enabling/disabling the flash of the camera"
     },
-    "camera_flash_error_dialog_message": "An error occurred while changing the state of your flash. Please ensure your smartphone has not the torch already enabled.",
+    "camera_flash_error_dialog_message": "Hiba történt a vaku állapotának módosításakor. Győződjön meg arról, hogy okostelefonján nincs bekapcsolva a zseblámpa.",
     "@camera_flash_error_dialog_message": {
         "description": "Content of the dialog explaining that an error happened while enabling/disabling the flash of the camera"
     },
@@ -1698,31 +1698,31 @@
     "@category_picker_no_category_found_button": {
         "description": "Button label when no category is available"
     },
-    "user_preferences_item_accessibility_hint": "Click to open in your browser or in the application (if installed)",
+    "user_preferences_item_accessibility_hint": "Kattintson a megnyitáshoz a böngészőben vagy az alkalmazásban (ha telepítve van)",
     "@user_preferences_item_accessibility_hint": {
         "description": "A hint for screen readers to explain how external links work"
     },
-    "dev_preferences_screen_title": "DEV Mode",
+    "dev_preferences_screen_title": "Fejlesztői mód",
     "@dev_preferences_screen_title": {
         "description": "User dev preferences - Title"
     },
-    "dev_preferences_reset_onboarding_title": "Restart onboarding",
+    "dev_preferences_reset_onboarding_title": "Bemutatkozás újrakezdése",
     "@dev_preferences_reset_onboarding_title": {
         "description": "User dev preferences - Reset onboarding - Title"
     },
-    "dev_preferences_reset_onboarding_subtitle": "You then have to restart the App to see it again.",
+    "dev_preferences_reset_onboarding_subtitle": "Ezután újra kell indítania az alkalmazást, hogy újra láthassa.",
     "@dev_preferences_reset_onboarding_subtitle": {
         "description": "User dev preferences - Reset onboarding - Subtitle"
     },
-    "dev_preferences_environment_switch_title": "Switch between openfoodfacts.org (PROD) and test env",
+    "dev_preferences_environment_switch_title": "Váltás az openfoodfacts.org (PROD) és a tesztkörnyezet között",
     "@dev_preferences_environment_switch_title": {
         "description": "User dev preferences - Environment (prod/test) switcher - Title"
     },
-    "dev_preferences_test_environment_title": "Test environment parameters",
+    "dev_preferences_test_environment_title": "Tesztkörnyezet paraméterei",
     "@dev_preferences_test_environment_title": {
         "description": "User dev preferences - Info about test environment - Title"
     },
-    "dev_preferences_test_environment_subtitle": "Base URL for current test env: {url}",
+    "dev_preferences_test_environment_subtitle": "Az aktuális tesztkörnyezet base URL-je: {url}",
     "@dev_preferences_test_environment_subtitle": {
         "description": "User dev preferences - Info about test environment - Value",
         "placeholders": {
@@ -1731,7 +1731,7 @@
             }
         }
     },
-    "dev_preferences_test_environment_dialog_title": "Test environment host",
+    "dev_preferences_test_environment_dialog_title": "Tesztkörnyezet gépneve",
     "@dev_preferences_test_environment_dialog_title": {
         "description": "User dev preferences - Info about test environment - Dialog title"
     },
@@ -1739,7 +1739,7 @@
     "@dev_preferences_ml_kit_title": {
         "description": "User dev preferences - Enable ML Kit - Title"
     },
-    "dev_preferences_ml_kit_subtitle": "then you have to restart this app",
+    "dev_preferences_ml_kit_subtitle": "ezután újra kell indítania az alkalmazást",
     "@dev_preferences_ml_kit_subtitle": {
         "description": "User dev preferences - Enable ML Kit - Subtitle"
     },
