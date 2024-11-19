@@ -1488,21 +1488,21 @@
     "@edit_product_form_item_categories_type": {
         "description": "Product edition - Categories - input textfield type"
     },
-    "edit_product_form_item_categories_explainer_1": "Indicate only the most specific category. Parent categories will be automatically added.",
+    "edit_product_form_item_categories_explainer_1": "Csak a legszűkebb alkategóriát adja meg. A szülőkategóriák automatikusan hozzá lesznek adva.",
     "@edit_product_form_item_categories_explainer_1": {
         "description": "Product edition - Categories - input explainer, part 1"
     },
-    "edit_product_form_item_categories_explainer_2": "In case a category is not available in autocomplete, feel free to add it anyway, that will help us improve Open Food Facts in your country.",
+    "edit_product_form_item_categories_explainer_2": "Ha egy kategóriát nem kínál fel az automatikus kiegészítés, nyugodtan adja hozzá. Ez segít nekünk az Open Food Facts fejlesztésében az Ön országában.",
     "@edit_product_form_item_categories_explainer_2": {
         "description": "Product edition - Categories - input explainer, part 2"
     },
-    "edit_product_form_item_categories_explainer_3": "Examples: Sardines in olive oil, Orange juice from concentrate",
+    "edit_product_form_item_categories_explainer_3": "Példák: Szardínia olívaolajban, narancslé koncentrátumból",
     "@edit_product_form_item_categories_explainer_3": {
         "description": "Product edition - Categories - input explainer, part 3"
     },
-    "edit_product_form_item_exit_confirmation": "Do you want to save your changes before leaving this page?",
-    "edit_product_form_item_exit_confirmation_positive_button": "Save changes",
-    "edit_product_form_item_exit_confirmation_negative_button": "Discard changes",
+    "edit_product_form_item_exit_confirmation": "Szeretné menteni a változtatásokat, mielőtt elhagyja ezt az oldalt?",
+    "edit_product_form_item_exit_confirmation_positive_button": "Módosítások mentése",
+    "edit_product_form_item_exit_confirmation_negative_button": "Módosítások elvetése",
     "edit_product_form_item_ingredients_title": "Összetevők",
     "@edit_product_form_item_ingredients_title": {
         "description": "Product edition - Ingredients - Title (note: this section was previously called Ingredients & Origins)"
@@ -2425,6 +2425,11 @@
         "description": "Label for expanding nutrition facts table in application setting"
     },
     "expand_ingredients_body": "Keep the ingredients panel expanded",
+    "search_product_filter_visibility_title": "Show a filter in the search",
+    "search_product_filter_visibility_subtitle": "Select search site: Open Food Facts, Open Beauty Facts, Open Pet Food Facts or Open Products Facts",
+    "@search_product_filter_visibility_subtitle": {
+        "description": "Label for showing the product type filter in the search bar"
+    },
     "no_internet_connection": "No internet connection",
     "@no_internet_connection": {
         "description": "Message when there is no internet connection"
