@@ -1895,7 +1895,7 @@
             }
         }
     },
-    "prices_list_length_many_pages": "Legfrissebb {pageSize} ár (összesen: {total})",
+    "prices_list_length_many_pages": "Legújabb {pageSize} ár (összesen: {total})",
     "@prices_list_length_many_pages": {
         "description": "Number of prices for one-page result",
         "placeholders": {
@@ -1938,7 +1938,7 @@
     "@prices_open_proof": {
         "description": "Button to open a proof"
     },
-    "prices_proofs_list_length_one_page": "{count,plural, =0{No proof yet} =1{Only one proof} other{All {count} proofs}}",
+    "prices_proofs_list_length_one_page": "{count,plural, one {}=0{Még nincs igazolás} =1{Csak egy igazolás} other{{count} igazolás}}",
     "@prices_proofs_list_length_one_page": {
         "description": "Number of proofs for one-page result",
         "placeholders": {
@@ -1947,7 +1947,7 @@
             }
         }
     },
-    "prices_proofs_list_length_many_pages": "Latest {pageSize} proofs (total: {total})",
+    "prices_proofs_list_length_many_pages": "Legújabb {pageSize} igazolás (összesen: {total})",
     "@prices_proofs_list_length_many_pages": {
         "description": "Number of proofs for one-page result",
         "placeholders": {
@@ -1959,7 +1959,7 @@
             }
         }
     },
-    "prices_users_list_length_many_pages": "Top {pageSize} contributors (total: {total})",
+    "prices_users_list_length_many_pages": "Top {pageSize} közreműködő (összes: {total})",
     "@prices_users_list_length_many_pages": {
         "description": "Number of users for one-page result",
         "placeholders": {
@@ -1971,28 +1971,28 @@
             }
         }
     },
-    "prices_amount_subtitle": "Amount",
-    "prices_amount_is_discounted": "Is discounted?",
+    "prices_amount_subtitle": "Mennyiség",
+    "prices_amount_is_discounted": "Akciós?",
     "prices_amount_price_normal": "Price",
     "prices_amount_price_discounted": "Discounted price",
-    "prices_amount_price_not_discounted": "Original price",
-    "prices_amount_no_product": "One product is missing!",
-    "prices_amount_price_incorrect": "Incorrect value",
-    "prices_amount_price_mandatory": "Mandatory value",
+    "prices_amount_price_not_discounted": "Eredeti ár",
+    "prices_amount_no_product": "Egy termék hiányzik!",
+    "prices_amount_price_incorrect": "Hibás érték",
+    "prices_amount_price_mandatory": "Kötelező érték",
     "prices_currency_subtitle": "Currency",
     "prices_date_subtitle": "Date",
-    "prices_location_subtitle": "Shop",
-    "prices_location_find": "Find a shop",
-    "prices_location_mandatory": "You need to select a shop!",
-    "prices_location_search_broader": "Couldn't find what you were looking for? Let's try a broader search!",
+    "prices_location_subtitle": "Bolt",
+    "prices_location_find": "Bolt keresése",
+    "prices_location_mandatory": "Ki kell választani egy boltot!",
+    "prices_location_search_broader": "Nem találta, amit keresett? Próbáljunk meg egy átfogóbb keresést!",
     "prices_proof_subtitle": "Proof",
-    "prices_proof_find": "Select a proof",
+    "prices_proof_find": "Igazolás kiválasztása",
     "prices_proof_receipt": "Receipt",
     "prices_proof_price_tag": "Price tag",
-    "prices_proof_mandatory": "You need to select a proof!",
-    "prices_add_validation_error": "Validation error",
-    "prices_privacy_warning_title": "Privacy warning",
-    "prices_privacy_warning_message": "Prices will be public, along with the store they refer to.\nThat might allow people who know about your Open Food Facts pseudonym to:\n* infer in which area you live\n* know what you are buying\nIf you are uneasy with that, please change your pseudonym, or create a new Open Food Facts account and log into the app with it.",
+    "prices_proof_mandatory": "Ki kell választani egy igazolást!",
+    "prices_add_validation_error": "Érvényesítési hiba",
+    "prices_privacy_warning_title": "Adatvédelmi figyelmeztetés",
+    "prices_privacy_warning_message": "Az árak nyilvánosak lesznek, a hozzájuk tartozó üzlettel együtt.\nEz lehetővé teheti az Open Food Factsen használt felhasználónevét ismerő emberek számára, hogy:\n* következtessenek a lakóhelyére\n* tudják, mit vásárol\nHa aggódik emiatt, változtassa meg a felhasználónevét, vagy hozzon létre egy másik Open Food Facts fiókot, és jelentkezzen be azzal az alkalmazásba.",
     "prices_unknown_product": "Unknown product",
     "@prices_unknown_product": {
         "description": "Very small text, in the context of prices, to say that the product is unknown"
@@ -2001,12 +2001,12 @@
     "@dev_preferences_import_history_result_success": {
         "description": "User dev preferences - Import history - Result successful"
     },
-    "dev_mode_section_server": "Server configuration",
-    "dev_mode_section_news": "News provider configuration",
-    "dev_mode_section_product_page": "Product page",
-    "dev_mode_section_ui": "User Interface",
+    "dev_mode_section_server": "Szerver beállításai",
+    "dev_mode_section_news": "Hírszolgáltató konfigurációja",
+    "dev_mode_section_product_page": "Termékoldal",
+    "dev_mode_section_ui": "Felhasználói felület",
     "dev_mode_section_data": "Adatok",
-    "dev_mode_section_experimental_features": "Experimental features",
+    "dev_mode_section_experimental_features": "Kísérleti funkciók",
     "dev_preferences_show_folksonomy_title": "Exclude Folksonomy",
     "@dev_preferences_show_folksonomy_title": {
         "description": "Title for switch toggle to show or hide folksonomy, product tags on product details page"
