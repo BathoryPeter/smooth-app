@@ -387,7 +387,7 @@
     "contribute_join_skill_pool": "Járuljon hozzá készségeivel az Open Food Factshez. Csatlakozzon a képességtárhoz!",
     "contribute_share_header": "Ossza meg barátaival az OpenFoodFacts-et",
     "@contribute_share_header": {},
-    "contribute_share_content": "I wanted to let you know about the app I've been using, Open Food Facts, which allows you to get the health and environmental impacts of your food, in a personalized way. It works by scanning the barcodes on the packaging. Finally it's free, does not require registration, and you can even help increase the number of products decyphered. Here's the link to get it for your phone: https://openfoodfacts.app",
+    "contribute_share_content": "Szerettem volna, ha tudsz az általam használt Open Food Facts nevű alkalmazásról, amely lehetővé teszi, hogy személyre szabott módon megismerd az ételek egészségügyi és környezeti hatásait. A csomagoláson található vonalkódok beolvasásával működik. Nem utolsó sorban ingyenes, nem igényel regisztrációt, és még segíthetsz is növelni a benne lévő termékek számát. Erről a linkről töltheted le a telefonodra: https://openfoodfacts.app",
     "@contribute_share_content": {
         "description": "Content that will be shared, don't forget to include the URL"
     },
@@ -435,7 +435,7 @@
     "myPreferences_settings_subtitle": "Sötét mód, analitika…",
     "myPreferences_food_title": "Élelmiszer-preferenciák",
     "myPreferences_food_subtitle": "Válassza ki, hogy mely élelmiszerekkel kapcsolatos információk a legfontosabbak az Ön számára.",
-    "myPreferences_food_comment": "Choose what information about food matters most to you, in order to rank food according to your preferences, see the information you care about first, and get a compatibility summary. Those food preferences stay on your device, and are not associated with your Open Food Facts contributor account if you have one.",
+    "myPreferences_food_comment": "Válassza ki, hogy az élelmiszerekkel kapcsolatban mely információk a legfontosabbak az Ön számára, hogy az élelmiszereket a preferenciái szerint rangsorolja, az Ön számára fontos információkat lássa elsőként, és kapjon egy megfelelőségi összefoglalót. Ezek az élelmiszer-preferenciák az Ön készülékén maradnak, és nem kapcsolódnak az Open Food Facts közreműködői fiókjához, ha rendelkezik ilyennel.",
     "confirmResetPreferences": "Visszaállítja az élelmiszer-preferenciáit?",
     "@confirmResetPreferences": {
         "description": "Pop up title: Reassuring if the food preferences should really be reset"
@@ -606,15 +606,15 @@
     "@crop_page_action_local_title": {
         "description": "The save of the picture locally failed - error dialog message"
     },
-    "crop_page_action_local_failed_message": "We are unable to process the image locally, before sending it to our server. Please try again later or contact-us if the issue persists.",
+    "crop_page_action_local_failed_message": "Nem tudjuk a képet helyben feldolgozni, mielőtt elküldenénk a szerverünkre. Próbálja meg később újra, vagy lépjen kapcsolatba velünk, ha a probléma továbbra is fennáll.",
     "@crop_page_action_local_message": {
         "description": "The save of the picture locally failed - error dialog message"
     },
-    "crop_page_too_small_image_title": "The image is too small!",
+    "crop_page_too_small_image_title": "A fénykép túl kicsi!",
     "@crop_page_too_small_image_title": {
         "description": "Title of a dialog warning the user that the image is too small for upload"
     },
-    "crop_page_too_small_image_message": "The minimum size in pixels for picture upload is {expectedMinWidth}x{expectedMinHeight}. The current picture is {actualWidth}x{actualHeight}.",
+    "crop_page_too_small_image_message": "Képfeltöltésnél a minimális méret {expectedMinWidth}x{expectedMinHeight} pixel. Az aktuális kép {actualWidth}x{actualHeight} pixeles.",
     "@crop_page_too_small_image_message": {
         "description": "Message of a dialog warning the user that the image is too small for upload",
         "placeholders": {
@@ -632,7 +632,7 @@
             }
         }
     },
-    "crop_page_action_server": "Preparing a call to the server…",
+    "crop_page_action_server": "A szerver hívásának előkészítése…",
     "@crop_page_action_server": {
         "description": "Action being performed on the crop page"
     },
@@ -2011,7 +2011,7 @@
     "@dev_preferences_show_folksonomy_title": {
         "description": "Title for switch toggle to show or hide folksonomy, product tags on product details page"
     },
-    "dev_mode_hide_ecoscore_title": "Exclude Eco-Score",
+    "dev_mode_hide_ecoscore_title": "Eco-Score kizárása",
     "@dev_mode_hide_ecoscore_title": {
         "description": "User dev preferences - Disable Ecoscore - Title"
     },
@@ -2126,7 +2126,7 @@
     "@edit_product_action_confirm": {
         "description": "Product edition - FAB actions - confirm"
     },
-    "signup_page_terms_of_use_line1": "I agree to the Open Food Facts ",
+    "signup_page_terms_of_use_line1": "Elfogadom az Open Food Facts ",
     "@signup_page_terms_of_use_line1": {
         "description": "User consent for terms of use (line 1)"
     },
@@ -2134,7 +2134,7 @@
     "@signup_page_terms_of_use_line2": {
         "description": "User consent for terms of use (line 2)"
     },
-    "analytics_consent_image_semantic_label": "Analytics icon",
+    "analytics_consent_image_semantic_label": "Analytics ikon",
     "@analytics_consent_image_semantic_label": {
         "description": "Consent Analytics icon semantics label"
     },
