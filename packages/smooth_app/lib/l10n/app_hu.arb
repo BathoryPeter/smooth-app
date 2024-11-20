@@ -384,7 +384,7 @@
     "@contribute_translate_text": {},
     "contribute_translate_text_2": "A fordítás a projekt egyik legfontosabb feladatai közé tartozik",
     "@contribute_translate_text_2": {},
-    "contribute_join_skill_pool": "Contribute your skills to Open Food Facts. Join the skill pool!",
+    "contribute_join_skill_pool": "Járuljon hozzá készségeivel az Open Food Factshez. Csatlakozzon a képességtárhoz!",
     "contribute_share_header": "Ossza meg barátaival az OpenFoodFacts-et",
     "@contribute_share_header": {},
     "contribute_share_content": "I wanted to let you know about the app I've been using, Open Food Facts, which allows you to get the health and environmental impacts of your food, in a personalized way. It works by scanning the barcodes on the packaging. Finally it's free, does not require registration, and you can even help increase the number of products decyphered. Here's the link to get it for your phone: https://openfoodfacts.app",
@@ -3127,7 +3127,7 @@
     "@photo_viewer_details_size_title": {
         "description": "Label for the size of a photo"
     },
-    "photo_viewer_details_size_value": "{width} x {height} pixels",
+    "photo_viewer_details_size_value": "{width} x {height} pixel",
     "@photo_viewer_details_size_value": {
         "description": "Value for the size of a photo",
         "placeholders": {
@@ -3147,15 +3147,15 @@
     "@photo_viewer_details_url_title": {
         "description": "Label for the link of a photo"
     },
-    "product_page_compatibility_score": "Compatible",
+    "product_page_compatibility_score": "megfelelőség",
     "@product_page_compatibility_score": {
         "description": "Compatibility score on top of the product page. The sentence is \"100%\" Compatible"
     },
-    "user_lists_action_multi_select": "Multi-select",
+    "user_lists_action_multi_select": "Többszörös kijelölés",
     "@user_lists_action_multi_select": {
         "description": "The button label for multi-selecting products in a user list"
     },
-    "product_page_compatibility_score_tooltip": "Your compatibility score: {score}%",
+    "product_page_compatibility_score_tooltip": "Az Ön kompatibilitási pontszáma: {score}%",
     "@product_page_compatibility_score_tooltip": {
         "description": "Message explaining that the score is the compatibility score",
         "placeholders": {
@@ -3168,31 +3168,31 @@
     "@product_page_image_front_accessibility_label": {
         "description": "Accessibility label for the image on the product page"
     },
-    "product_page_image_front_outdated_message": "This picture may be outdated",
+    "product_page_image_front_outdated_message": "Ez a kép elavult lehet",
     "@product_page_image_front_outdated_message": {
         "description": "Small message to indicate that the image may be outdated"
     },
-    "product_page_image_front_outdated_message_accessibility_label": "Front picture (this image may be outdated)",
+    "product_page_image_front_outdated_message_accessibility_label": "Elülső kép (ez a kép elavult lehet)",
     "@product_page_image_front_outdated_message_accessibility_label": {
         "description": "Accessibility label for the image on the product page when it may be outdated"
     },
-    "product_page_image_error": "Unable to load the image!",
+    "product_page_image_error": "Nem sikerült betölteni a képet!",
     "@product_page_image_error": {
         "description": "Small message that will be displayed above the picture (please keep it short)"
     },
-    "product_page_image_error_accessibility_label": "Unable to load the front picture (network error?)",
+    "product_page_image_error_accessibility_label": "Nem sikerült betölteni az elülső képet (hálózati hiba?)",
     "@product_page_image_error_accessibility_label": {
         "description": "Accessibility label for the image on the product page when it fails to load"
     },
-    "product_page_image_no_image_available": "No\nimage!",
+    "product_page_image_no_image_available": "Nincs\nkép!",
     "@product_page_image_no_image_available": {
         "description": "Small message that will be displayed above the picture (please keep it short) when there is no image available on the database. A line break is not mandatory."
     },
-    "product_page_image_no_image_available_accessibility_label": "No picture available for this product",
+    "product_page_image_no_image_available_accessibility_label": "Nem érhető el kép erről a termékről",
     "@product_page_image_no_image_available_accessibility_label": {
         "description": "Accessibility label for the image on the product page when there is no image available on the database"
     },
-    "product_page_action_bar_settings_accessibility_label": "Reorder or hide actions",
+    "product_page_action_bar_settings_accessibility_label": "Műveletek átrendezése vagy elrejtése",
     "@product_page_action_bar_settings_accessibility_label": {
         "description": "Accessibility label for the Settings icon in the action bar (= bottom bar) on the product page"
     },
@@ -3200,27 +3200,27 @@
     "@product_page_action_bar_setting_modal_title": {
         "description": "Title for the modal allowing to show and reorder actions"
     },
-    "product_page_action_bar_item_move_up": "Move up",
+    "product_page_action_bar_item_move_up": "Mozgatás fel",
     "@product_page_action_bar_item_move_up": {
         "description": "Accessibility label to move up an action"
     },
-    "product_page_action_bar_item_move_down": "Move down",
+    "product_page_action_bar_item_move_down": "Mozgatás le",
     "@product_page_action_bar_item_move_down": {
         "description": "Accessibility label to move down an action"
     },
-    "product_page_action_bar_item_enable": "Enable action",
+    "product_page_action_bar_item_enable": "Művelet engedélyezése",
     "@product_page_action_bar_item_enable": {
         "description": "Accessibility label to enable action (= make it visible)"
     },
-    "product_page_action_bar_item_disable": "Disable action",
+    "product_page_action_bar_item_disable": "Művelet letiltása",
     "@product_page_action_bar_item_disable": {
         "description": "Accessibility label to disable action (= make it invisible)"
     },
-    "product_add_a_language": "Add a language",
+    "product_add_a_language": "Nyelv hozzáadása",
     "@product_add_a_language": {
         "description": "Button to add a language (eg: for photos) to a product"
     },
-    "barcode_accessibility_label": "Barcode {barcode}",
+    "barcode_accessibility_label": "Vonalkód: {barcode}",
     "@barcode_accessibility_label": {
         "description": "Accessibility label for a barcode image",
         "placeholders": {
@@ -3229,23 +3229,23 @@
             }
         }
     },
-    "carousel_close_tooltip": "Remove this product from the carousel",
+    "carousel_close_tooltip": "Termék eltávolítása a lapozóból",
     "@carousel_close_tooltip": {
         "description": "A message explaining the goal of the Close button on a card of the carousel"
     },
-    "carousel_unsupported_header": "Unsupported barcode!",
+    "carousel_unsupported_header": "Nem támogatott vonalkód!",
     "@carousel_unsupported_header": {
         "description": "A label on top of the carousel card when the barcode is not supported by the app"
     },
-    "carousel_unsupported_title": "Ooops!",
-    "carousel_unsupported_text": "The barcode scanned is not supported by Open Food Facts!",
-    "carousel_error_header": "Error!",
+    "carousel_unsupported_title": "Hoppá!",
+    "carousel_unsupported_text": "A leolvasott vonalkódot az Open Food Facts nem támogatja!",
+    "carousel_error_header": "Hiba!",
     "@carousel_error_header": {
         "description": "A label on top of the carousel card when there is an error (mainly network issues)"
     },
     "carousel_error_title": "It's a bummer!",
-    "carousel_error_text_1": "We couldn't download information on this barcode:",
-    "carousel_error_text_2": "Please check your Internet connection or click this button:",
+    "carousel_error_text_1": "Nem tudtunk információkat letölteni erről a vonalkódról:",
+    "carousel_error_text_2": "Ellenőrizze internetkapcsolatát, vagy kattintson erre a gombra:",
     "@carousel_error_text_2": {
         "description": "Please keep the ** syntax to make the text bold"
     },
@@ -3254,21 +3254,21 @@
     "@carousel_unknown_product_header": {
         "description": "A label on top of the carousel card when the product is not in the database (= it needs to be created)"
     },
-    "carousel_unknown_product_title": "Congratulations!\nYou've found __the rare gem!__",
+    "carousel_unknown_product_title": "Gratulálok!\n__Ritka gyöngyszemet__ találtál!",
     "@carousel_unknown_product_title": {
         "description": "Please keep the __ syntax to underline the text"
     },
-    "carousel_unknown_product_text": "Our collaborative database contains more than **3 million products**, but this barcode doesn't exist: ",
+    "carousel_unknown_product_text": "Együttműködésen alapuló adatbázisunk több mint **3 millió terméket** tartalmaz, de ez a vonalkód nincs benne: ",
     "@carousel_unknown_product_text": {
         "description": "Please keep the ** syntax to make the text bold"
     },
     "carousel_unknown_product_button": "Termék hozzáadása",
-    "carousel_loading_header": "Loading information...",
+    "carousel_loading_header": "Információ betöltése…",
     "@carousel_loading_header": {
         "description": "A label on top of the carousel card when data about the product is loading"
     },
-    "carousel_loading_title": "You've just scanned a product with the following barcode:",
-    "carousel_loading_text": "We are searching for it in our database of more than **3 million products!**",
+    "carousel_loading_title": "Épp most olvasott le egy terméket a következő vonalkóddal:",
+    "carousel_loading_text": "Már keressük a több mint **3 millió terméket tartalmazó adatbázisunkban**!",
     "@carousel_loading_text": {
         "description": "Please keep the ** syntax to make the text bold"
     }
