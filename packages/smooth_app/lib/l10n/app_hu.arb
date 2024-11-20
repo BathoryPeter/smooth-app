@@ -2229,7 +2229,7 @@
     "alert_clear_selected_user_list": "A kiválasztott elemek törlésére készül az előzményekből",
     "confirm_clear_selected_user_list": "Biztosan folytatni szeretné?",
     "alert_select_items_to_clear": "Válasszon egy vagy több törlendő elemet",
-    "confirm_clear_user_list": "You're about to clear this list ({name}): are you sure you want to continue?",
+    "confirm_clear_user_list": "A lista kiürítésére készül ({name}): biztosan folytatja?",
     "@confirm_clear_user_list": {
         "description": "Asking about whether to clear the list or not",
         "placeholders": {
@@ -2242,7 +2242,7 @@
     "@confirm_delete_user_list_title": {
         "description": "Title when asking about whether to delete the list or not"
     },
-    "confirm_delete_user_list_message": "You're about to delete the list \"{name}\".\nAre you sure you want to continue?",
+    "confirm_delete_user_list_message": "A(z) „{name}” lista törlésére készül.\nBiztosan folytatja?",
     "@confirm_delete_user_list_message": {
         "description": "Message when asking about whether to delete the list or not",
         "placeholders": {
@@ -2251,11 +2251,11 @@
             }
         }
     },
-    "confirm_delete_user_list_button": "Yes, I confirm",
+    "confirm_delete_user_list_button": "Igen, megerősítem",
     "@confirm_delete_user_list_button": {
         "description": "Button to delete a list"
     },
-    "importance_label": "{name} importance: {id}",
+    "importance_label": "{name} fontosság: {id}",
     "@importance_label": {
         "description": "Used when user selects a food preference. example: Vegan importance; mandatory",
         "placeholders": {
@@ -2271,22 +2271,22 @@
     "@user_list_all_title": {
         "description": "Title about the user lists in the user preferences"
     },
-    "user_list_all_empty": "Create your first list",
+    "user_list_all_empty": "Hozza létre első listáját",
     "@user_list_all_empty": {
         "description": "Small message when there are no user lists"
     },
-    "product_list_select": "Select a list",
+    "product_list_select": "Lista kiválasztása",
     "@product_list_select": {
         "description": "Top title for the selection of a list"
     },
-    "user_list_length": "{count,plural, =0{Empty list} =1{One product} other{{count} products}}",
+    "user_list_length": "{count,plural, one {}=0{Üres lista} =1{Egy termék} other{{count} termék}}",
     "@user_list_length": {
         "description": "Length of a user product list",
         "placeholders": {
             "count": {}
         }
     },
-    "add_list_label": "Add list",
+    "add_list_label": "Lista hozzáadása",
     "@add_list_label": {
         "description": "Label for the add list button"
     },
@@ -2294,47 +2294,47 @@
     "@open_food_preferences_tooltip": {
         "description": "Tooltip (message displayed on long press) to open the user food preferences"
     },
-    "add_photo_button_label": "Add photo",
+    "add_photo_button_label": "Fénykép hozzáadása",
     "@add_photo_button_label": {
         "description": "Label for the add photo button"
     },
-    "add_packaging_photo_button_label": "Take photos of any packaging/recycling information",
+    "add_packaging_photo_button_label": "Fotózza le a csomagolási/újrahasznosítási információkat",
     "@add_packaging_photo_button_label": {
         "description": "Label for the add PACKAGING photo button"
     },
-    "add_origin_photo_button_label": "Take photos of any origin information",
+    "add_origin_photo_button_label": "Fotózza le a származási információkat",
     "@add_origin_photo_button_label": {
         "description": "Label for the add ORIGIN photo button"
     },
-    "add_emb_photo_button_label": "Take photos of any traceability code information",
+    "add_emb_photo_button_label": "Fotózza le a gyártási kódokat",
     "@add_emb_photo_button_label": {
         "description": "Label for the add EMB photo button"
     },
-    "add_label_photo_button_label": "Take photos of any labels & certifications information",
+    "add_label_photo_button_label": "Fotózza le a címkéket/tanúsítványokat",
     "@add_label_photo_button_label": {
         "description": "Label for the add LABELS photo button"
     },
-    "choose_image_source_title": "Choose image source",
+    "choose_image_source_title": "Kép forrása",
     "@choose_image_source_title": {
         "description": "Title for the image source chooser"
     },
-    "choose_image_source_body": "Please choose a image source",
+    "choose_image_source_body": "Válassza ki a kép forrását",
     "@choose_image_source_body": {
         "description": "Body for the image source chooser"
     },
-    "gallery_source_label": "Gallery",
+    "gallery_source_label": "Galéria",
     "@gallery_source_label": {
         "description": "Label for the gallery image source"
     },
-    "gallery_source_access_denied_dialog_title": "Access denied",
+    "gallery_source_access_denied_dialog_title": "Hozzáférés megtagadva",
     "@gallery_source_access_denied_dialog_title": {
         "description": "On iOS, the user has refused to give the permission (title of the dialog)"
     },
-    "gallery_source_access_denied_dialog_message_ios": "Unfortunately, the application can't access your gallery, as you have previously denied the permission.\n\nPlease go to the app settings in your phone Settings -> Photos",
+    "gallery_source_access_denied_dialog_message_ios": "Sajnos az alkalmazás nem fér hozzá a galériához, mivel korábban megtagadta az engedélyt.\n\nNyissa meg az alkalmazás beállításait a telefon Beállítások -> Fényképek menüjében",
     "@gallery_source_access_denied_dialog_message_ios": {
         "description": "On iOS, the user has refused to give the permission"
     },
-    "gallery_source_access_denied_dialog_button": "Open the Settings",
+    "gallery_source_access_denied_dialog_button": "Beállítások megnyitása",
     "@gallery_source_access_denied_dialog_button": {
         "description": "Button to open the app settings"
     },
@@ -2342,7 +2342,7 @@
     "@share": {
         "description": "Button label for sharing something on another app. For example sharing the link to a product via Email"
     },
-    "share_product_text": "Have a look at this product on Open Food Facts: {url}",
+    "share_product_text": "Nézd meg ezt a terméket az Open Food Facts oldalán: {url}",
     "@share_product_text": {
         "description": "The content which is send, when sharing a 'food' product",
         "placeholders": {
@@ -2351,7 +2351,7 @@
             }
         }
     },
-    "share_product_text_beauty": "Have a look at this product on Open Beauty Facts: {url}",
+    "share_product_text_beauty": "Nézd meg ezt a terméket az Open Beauty Facts oldalán: {url}",
     "@share_product_text_beauty": {
         "description": "The content which is send, when sharing a 'beauty' product",
         "placeholders": {
@@ -2360,7 +2360,7 @@
             }
         }
     },
-    "share_product_text_pet_food": "Have a look at this product on Open PetFood Facts: {url}",
+    "share_product_text_pet_food": "Nézd meg ezt a terméket az Open PetFood Facts oldalán: {url}",
     "@share_product_text_pet_food": {
         "description": "The content which is send, when sharing a 'pet food' product",
         "placeholders": {
@@ -2369,7 +2369,7 @@
             }
         }
     },
-    "share_product_text_product": "Have a look at this product on Open Products Facts: {url}",
+    "share_product_text_product": "Nézd meg ezt a terméket az Open Products Facts oldalán: {url}",
     "@share_product_text_product": {
         "description": "The content which is send, when sharing a 'products' product",
         "placeholders": {
@@ -2378,7 +2378,7 @@
             }
         }
     },
-    "share_product_list_text": "Have a look at my list of products on Open Food Facts: {url}",
+    "share_product_list_text": "Nézd meg a terméklistámat az Open Food Facts oldalán: {url}",
     "@share_product_list_text": {
         "description": "The content which is send, when sharing a product list",
         "placeholders": {
@@ -2387,7 +2387,7 @@
             }
         }
     },
-    "capture": "Capture New",
+    "capture": "Új kép készítése",
     "@capture": {
         "description": "Button label for taking a new photo (= there's already one)"
     },
@@ -2395,58 +2395,58 @@
     "@capture_new_picture": {
         "description": "Button label for taking a new photo (= the first one)"
     },
-    "choose_from_gallery": "Choose from gallery",
+    "choose_from_gallery": "Választás a galériából",
     "@choose_from_gallery": {
         "description": "Button label for choosing a photo from gallery"
     },
-    "image_upload_queued": "The image will be uploaded in the background as soon as possible.",
+    "image_upload_queued": "A képet a lehető leghamarabb feltöltjük a háttérben.",
     "@image_upload_queued": {
         "description": "Message when a photo is queued for upload"
     },
-    "add_price_queued": "The price will be sent to the server as soon as possible.",
+    "add_price_queued": "Az árat a lehető leghamarabb elküldjük a szerverre.",
     "@add_price_queued": {
         "description": "Message when an added price is queued for the server"
     },
-    "background_task_title_full_refresh": "Starting the refresh of all the products locally stored",
+    "background_task_title_full_refresh": "Az összes helyben tárolt termék frissítésének megkezdése",
     "@background_task_title_full_refresh": {
         "description": "Snackbar message when a full refresh is started"
     },
-    "background_task_title_top_n": "Starting the download of the most popular products",
+    "background_task_title_top_n": "A legnépszerűbb termékek letöltésének megkezdése",
     "@background_task_title_top_n": {
         "description": "Snackbar message when a download of the most popular products is started"
     },
-    "expand_nutrition_facts": "Expand nutrition facts table",
+    "expand_nutrition_facts": "Tápértéktáblázat kibontása",
     "@expand_nutrition_facts": {
         "description": "Label for expanding nutrition facts table in application setting"
     },
-    "expand_nutrition_facts_body": "Keep the nutrition facts table expanded",
-    "expand_ingredients": "Expand ingredients",
+    "expand_nutrition_facts_body": "Kinyitva tartja a tápértéktáblázatot",
+    "expand_ingredients": "Összetevőlista kibontása",
     "@expand_ingredients": {
         "description": "Label for expanding nutrition facts table in application setting"
     },
-    "expand_ingredients_body": "Keep the ingredients panel expanded",
-    "search_product_filter_visibility_title": "Show a filter in the search",
-    "search_product_filter_visibility_subtitle": "Select search site: Open Food Facts, Open Beauty Facts, Open Pet Food Facts or Open Products Facts",
+    "expand_ingredients_body": "Nyitva tartja az összetevők paneljét",
+    "search_product_filter_visibility_title": "Szűrő megjelenítése a keresőben",
+    "search_product_filter_visibility_subtitle": "Keresőoldal kiválasztása: Open Food Facts, Open Beauty Facts, Open Pet Food Facts vagy Open Products Facts",
     "@search_product_filter_visibility_subtitle": {
         "description": "Label for showing the product type filter in the search bar"
     },
-    "no_internet_connection": "No internet connection",
+    "no_internet_connection": "Nincs internetkapcsolat",
     "@no_internet_connection": {
         "description": "Message when there is no internet connection"
     },
-    "world_results_label": "Entire world",
+    "world_results_label": "Egész világ",
     "@world_results_label": {
         "description": "Label describing the current source of the results: the entire world. Keep it short"
     },
-    "world_results_action": "Extend your search to the world",
+    "world_results_action": "Keresés kiterjesztése az egész világra",
     "@world_results_action": {
         "description": "Label for the action button that displays the results from the entire world"
     },
-    "copy_to_clipboard": "Copy",
+    "copy_to_clipboard": "Másolás",
     "@copy_to_clipboard": {
         "description": "Copy to clipboard button description"
     },
-    "paste_from_clipboard": "Paste from clipboard",
+    "paste_from_clipboard": "Beillesztés vágólapról",
     "@paste_from_clipboard": {
         "description": "Paste the content of the clipboard"
     },
@@ -2454,7 +2454,7 @@
     "@no_data_available_in_clipboard": {
         "description": "No data available in your clipboard"
     },
-    "clipboard_barcode_copy": "Copy barcode to clipboard",
+    "clipboard_barcode_copy": "Vonalkód másolása a vágólapra",
     "@clipboard_barcode_copied": {
         "description": "Snackbar label after clipboard copy",
         "placeholders": {
@@ -2464,34 +2464,34 @@
             }
         }
     },
-    "clipboard_barcode_copied": "Barcode {barcode} copied to the clipboard!",
-    "language_picker_label": "Your language",
+    "clipboard_barcode_copied": "A(z) {barcode} vonalkód a vágólapra másolva.",
+    "language_picker_label": "Alkalmazás nyelve",
     "@language_picker_label": {
         "description": "Choose Application Language"
     },
-    "help_with_openfoodfacts": "Help with OpenFoodFacts",
+    "help_with_openfoodfacts": "OpenFoodFacts segítségkérés",
     "@help_with_openfoodfacts": {
         "description": "Label for the email title"
     },
-    "product_task_background_schedule": "The product will be updated in the background as soon as possible.",
+    "product_task_background_schedule": "A termék a lehető leghamarabb frissül a háttérben.",
     "@product_task_background_schedule": {
         "description": "Message when a product is scheduled for background update"
     },
-    "no_email_client_available_dialog_title": "No email apps!",
+    "no_email_client_available_dialog_title": "Nem található e-mail alkalmazás!",
     "@no_email_client_available_dialog_title": {
         "description": "Title for the dialog when no email client is installed on the device"
     },
-    "no_email_client_available_dialog_content": "Please send us manually an email to mobile@openfoodfacts.org",
+    "no_email_client_available_dialog_content": "Kérjük, küldjön nekünk egy e-mailt manuálisan a mobile@openfoodfacts.org címre",
     "@no_email_client_available_dialog_content": {
         "description": "Content for the dialog when no email client is installed on the device"
     },
-    "all_images": "All Images",
-    "selected_images": "Selected Images",
-    "product_card_remove_product_tooltip": "Remove product",
+    "all_images": "Összes kép",
+    "selected_images": "Kiválasztott képek",
+    "product_card_remove_product_tooltip": "Termék eltávolítása",
     "@product_card_remove_product_tooltip": {
         "description": "Tooltip (message visible with a long-press) on a product item in the carousel"
     },
-    "scan_announce_new_barcode": "New barcode scanned: {barcode}",
+    "scan_announce_new_barcode": "Új vonalkód beolvasva: {barcode}",
     "@scan_announce_new_barcode": {
         "description": "Text to pronounce by the Accessibility tool when a new barcode is decoded",
         "placeholders": {
@@ -2501,7 +2501,7 @@
             }
         }
     },
-    "scan_header_clear_button_tooltip": "Remove all products from the carousel",
+    "scan_header_clear_button_tooltip": "Összes termék eltávolítása a lapozóból",
     "@scan_header_clear_button_tooltip": {
         "description": "Tooltip (message visible with a long-press) on the Clear button on top of the scanner"
     },
