@@ -2732,7 +2732,7 @@
     },
     "please_send_us_an_email_to": "Kérjük, manuálisan küldjön e-mailt a címre",
     "email_copied_to_clip_board": "E-mail vágólapra másolva",
-    "select_accent_color": "Select Accent Color",
+    "select_accent_color": "Kiemelt szín kiválasztása",
     "@select_accent_color": {
         "description": "Accent Color for the application in AMOLED mode."
     },
@@ -2756,55 +2756,55 @@
     "@color_light_brown": {
         "description": "Color Light Brown, Default Open Food Facts Color"
     },
-    "color_magenta": "Magenta",
+    "color_magenta": "Bíbor",
     "@color_magenta": {
         "description": "Color Magenta"
     },
-    "color_orange": "Orange",
+    "color_orange": "Narancs",
     "@color_orange": {
         "description": "Color Orange"
     },
-    "color_pink": "Pink",
+    "color_pink": "Rózsaszín",
     "@color_pink": {
         "description": "Color Pink"
     },
-    "color_red": "Red",
+    "color_red": "Vörös",
     "@color_red": {
         "description": "Color Red"
     },
-    "color_rust": "Rust",
+    "color_rust": "Rozsdabarna",
     "@color_rust": {
         "description": "Color Rust"
     },
-    "color_teal": "Teal",
+    "color_teal": "Türkiz",
     "@color_teal": {
         "description": "Color Teal"
     },
-    "text_contrast_mode": "Text Contrast",
+    "text_contrast_mode": "Szövegkontraszt",
     "@text_contrast_mode": {
         "description": "Text Contrast Color Mode"
     },
-    "contrast_high": "High",
+    "contrast_high": "Magas",
     "@contrast_high": {
         "description": "High Contrast Text Color"
     },
-    "contrast_medium": "Medium",
+    "contrast_medium": "Közepes",
     "@contrast_medium": {
         "description": "Medium Contrast Text Color"
     },
-    "contrast_low": "Low",
+    "contrast_low": "Alacsony",
     "@contrast_low": {
         "description": "Low Contrast Text Color"
     },
-    "product_refresher_internet_not_found": "Product not found!",
+    "product_refresher_internet_not_found": "A termék nem található!",
     "@product_refresher_internet_not_found": {
         "description": "When refreshing a product that does not exist on the server. Label is the body of a dialog."
     },
-    "product_refresher_internet_not_connected": "You are not connected to internet!",
+    "product_refresher_internet_not_connected": "Nem csatlakozik az internethez!",
     "@product_refresher_internet_not_connected": {
         "description": "When refreshing a product and you're not even connected to internet. Label is the body of a dialog."
     },
-    "product_refresher_internet_no_ping": "Server down ({host})",
+    "product_refresher_internet_no_ping": "A szerver leállt ({host})",
     "@product_refresher_internet_no_ping": {
         "description": "When refreshing a product and you cannot even ping the server. Label is the body of a dialog.",
         "placeholders": {
@@ -2813,7 +2813,7 @@
             }
         }
     },
-    "product_refresher_internet_error": "Server error ({exception})",
+    "product_refresher_internet_error": "Szerverhiba ({exception})",
     "@product_refresher_internet_error": {
         "description": "When refreshing a product and the server returned an exception. Label is the body of a dialog.",
         "placeholders": {
@@ -2822,11 +2822,11 @@
             }
         }
     },
-    "product_loader_not_found_title": "Product not found!",
+    "product_loader_not_found_title": "A termék nem található!",
     "@product_loader_not_found_title": {
         "description": "When fetching a product opened via a link and it doesn't exist"
     },
-    "product_loader_not_found_message": "A product with the following barcode doesn't exist in our database: {barcode}",
+    "product_loader_not_found_message": "A következő vonalkódú termék nem található meg az adatbázisunkban: {barcode}",
     "@product_loader_not_found_message": {
         "description": "When fetching a product opened via a link, it doesn't exist",
         "placeholders": {
@@ -2835,31 +2835,31 @@
             }
         }
     },
-    "product_loader_network_error_title": "No internet connection!",
+    "product_loader_network_error_title": "Nincs internetkapcsolat!",
     "@product_loader_network_error_title": {
         "description": "When fetching a product opened via a link and there is no connection"
     },
-    "product_loader_network_error_message": "Please check that your smartphone is on a WiFi network or has mobile data enabled",
+    "product_loader_network_error_message": "Ellenőrizze, hogy okostelefonja csatlakozik-e WiFi hálózathoz, vagy engedélyezve van-e a mobiladat-kapcsolat",
     "@product_loader_network_error_message": {
         "description": "When fetching a product opened via a link and there is no connection"
     },
-    "page_not_found_title": "Page not found!",
+    "page_not_found_title": "Az oldal nem található!",
     "@page_not_found_title": {
         "description": "Title for a page not found (when an URL is not recognized)"
     },
-    "page_not_found_button": "Go back to the homepage",
+    "page_not_found_button": "Vissza a kezdőlapra",
     "@page_not_found_button": {
         "description": "Button to go back to the homepage"
     },
-    "download_data": "Download data",
+    "download_data": "Adatok letöltése",
     "@download_data": {
         "description": "App bar title for the download data page"
     },
-    "download_top_products": "Download the top 1000 products in your country for instant scanning",
+    "download_top_products": "Töltse le országa 1000 legnépszerűbb termékét az azonnali beolvasáshoz",
     "@download_top_products": {
         "description": "Download the top 1000 products in your country for instant scanning"
     },
-    "download_top_n_products": "Download the top {count,plural,  other{{count} products}} in your country for instant scanning",
+    "download_top_n_products": "Töltse le országa {count,plural,  other{{count} legnépszerűbb termékét}} az azonnali beolvasáshoz",
     "@download_top_n_products": {
         "placeholders": {
             "count": {
@@ -2867,11 +2867,11 @@
             }
         }
     },
-    "download_in_progress": "Downloading data\nThis may take a while",
+    "download_in_progress": "Adatok letöltése\nEz eltarthat egy ideig",
     "@download_in_progress": {
         "description": "Download in progress"
     },
-    "downloaded_products": "{num} products added",
+    "downloaded_products": "{num} termék hozzáadva",
     "@downloaded_products": {
         "description": "text to show when products added",
         "placeholders": {
@@ -2880,23 +2880,23 @@
             }
         }
     },
-    "update_offline_data": "Update offline product data",
+    "update_offline_data": "Offline termékadatok frissítése",
     "@update_offline_data": {
         "description": "List tile title for the update offline data page"
     },
-    "update_local_database_sub": "Update the local product database with the latest data from Open Food Facts",
+    "update_local_database_sub": "Frissítse a helyi termékadatbázist az Open Food Facts legfrissebb adataival",
     "@update_local_database_sub": {
         "description": "Update the local product database with the latest data from server"
     },
-    "clear_local_database": "Clear offline product data",
+    "clear_local_database": "Offline termékadatok törlése",
     "@clear_local_database": {
         "description": "List tile title for the clear local database page"
     },
-    "clear_local_database_sub": "Clear all local product data from your app to free up space",
+    "clear_local_database_sub": "Tárhely felszabadításához törölje az összes helyi termékadatot az alkalmazásból",
     "@clear_local_database_sub": {
         "description": "Clear all local product data from your app to free up space"
     },
-    "deleted_products": "{num} products deleted",
+    "deleted_products": "{num} termék törölve",
     "@deleted_products": {
         "description": "text to show when products are deleted from local databse",
         "placeholders": {
@@ -2909,19 +2909,19 @@
     "@loading": {
         "description": "Loading…"
     },
-    "know_more": "Know More",
+    "know_more": "Tudjon meg többet",
     "@know_more": {
         "description": "Know More"
     },
-    "offline_data_desc": "Click to know more about offline data",
+    "offline_data_desc": "Kattintson, ha többet szeretne megtudni az offline adatokról",
     "@offline_data_desc": {
         "description": "Click to know more about offline data"
     },
-    "offline_product_data_title": "Offline product data",
+    "offline_product_data_title": "Offline termékadatok",
     "@offline_product_data_title": {
         "description": "Offline Product Data"
     },
-    "available_for_download": "{num} products available for immediate scaning",
+    "available_for_download": "{num} termék elérhető azonnali beolvasáshoz",
     "@available_for_download": {
         "description": "text to show details of products available for download",
         "placeholders": {
@@ -2930,15 +2930,15 @@
             }
         }
     },
-    "country_selector_title": "Select your country:",
+    "country_selector_title": "Válassza ki az országát:",
     "@country_selector_title": {
         "description": "Label written as the title of the dialog to select the user country"
     },
-    "currency_selector_title": "Select your currency:",
+    "currency_selector_title": "Válassza ki a pénznemét:",
     "@currency_selector_title": {
         "description": "Label written as the title of the dialog to select the user currency"
     },
-    "language_selector_title": "Select your language:",
+    "language_selector_title": "Válassza ki a nyelvet:",
     "@language_selector_title": {
         "description": "Label written as the title of the dialog to select the user language"
     },
@@ -2946,7 +2946,7 @@
     "@action_delete_list": {
         "description": "Delete a list action in a menu"
     },
-    "action_change_list": "Change the current list",
+    "action_change_list": "Az aktuális lista módosítása",
     "@action_change_list": {
         "description": "Action to change the current visible list"
     },
@@ -2964,7 +2964,7 @@
     "nutriscore_c": "Nutri-Score C",
     "nutriscore_d": "Nutri-Score D",
     "nutriscore_e": "Nutri-Score E",
-    "nutriscore_new_formula": "Nutri-Score {letter} (New calculation)",
+    "nutriscore_new_formula": "Nutri-Score {letter} (új számítás)",
     "@nutriscore_new_formula": {
         "description": "A generic string to define a Nutri-Score V2 with a letter [eg: \"Nutri-Score A (New calculation)\"]",
         "placeholders": {
@@ -2973,50 +2973,50 @@
             }
         }
     },
-    "nutriscore_new_formula_title": "Nutri-Score (New calculation)",
-    "nutriscore_unknown": "Unknown Nutri-Score",
-    "nutriscore_unknown_new_formula": "Unknown Nutri-Score (New calculation)",
-    "nutriscore_not_applicable": "Nutri-Score is not applicable",
-    "nutriscore_not_applicable_new_formula": "Nutri-Score is not applicable (New calculation)",
+    "nutriscore_new_formula_title": "Nutri-Score (új számítás)",
+    "nutriscore_unknown": "Ismeretlen Nutri-Score",
+    "nutriscore_unknown_new_formula": "Ismeretlen Nutri-Score (új számítás)",
+    "nutriscore_not_applicable": "A Nutri-Score nem alkalmazható",
+    "nutriscore_not_applicable_new_formula": "A Nutri-Score nem alkalmazható (új számítás)",
     "ecoscore_generic": "Eco-Score",
     "ecoscore_a": "Eco-Score A",
     "ecoscore_b": "Eco-Score B",
     "ecoscore_c": "Eco-Score C",
     "ecoscore_d": "Eco-Score D",
     "ecoscore_e": "Eco-Score E",
-    "ecoscore_unknown": "Unknown Eco-Score",
-    "ecoscore_not_applicable": "Eco-Score is not applicable",
-    "nova_group_generic": "Ultra-processing - NOVA groups",
-    "nova_group_1": "NOVA Group 1",
-    "nova_group_2": "NOVA Group 2",
-    "nova_group_3": "NOVA Group 3",
-    "nova_group_4": "NOVA Group 4",
-    "nova_group_unknown": "Unknown NOVA Group",
-    "nutrition_facts": "Nutrient Levels",
-    "faq_title_partners": "Partners & Patrons of the NGO",
-    "faq_title_vision": "The Open Food Facts Vision, Mission, Values and Programs",
-    "faq_title_install_beauty": "Install Open Beauty Facts to create a cosmetic database",
-    "faq_title_install_pet": "Install Open Pet Food Facts to create a pet food database",
-    "faq_title_install_product": "Install Open Products Facts to create a products database to extend the life of objects",
-    "faq_nutriscore_nutriscore": "New calculation of the Nutri-Score: what's new?",
-    "contact_title_pro_page": "Pro? Import your products in Open Food Facts",
-    "contact_title_pro_email": "Producer Contact",
-    "contact_title_press_page": "Press Page",
-    "contact_title_press_email": "Press Contact",
+    "ecoscore_unknown": "Ismeretlen Eco-Score",
+    "ecoscore_not_applicable": "Az Eco-Score nem alkalmazható",
+    "nova_group_generic": "Többszörös feldolgozottság – NOVA-csoportok",
+    "nova_group_1": "1. NOVA-csoport",
+    "nova_group_2": "2. NOVA-csoport",
+    "nova_group_3": "3. NOVA-csoport",
+    "nova_group_4": "4. NOVA-csoport",
+    "nova_group_unknown": "Ismeretlen NOVA-csoport",
+    "nutrition_facts": "Tápanyagszintek",
+    "faq_title_partners": "A civil szervezet partnerei és támogatói",
+    "faq_title_vision": "Open Food Facts vízió, küldetés, értékek és programok",
+    "faq_title_install_beauty": "Telepítse az Open Beauty Facts alkalmazást kozmetikai adatbázis létrehozásához",
+    "faq_title_install_pet": "Telepítse az Open Pet Food Facts alkalmazást állateledel adatbázis létrehozásához",
+    "faq_title_install_product": "Telepítse az Open Products Facts alkalmazást termékadatbázis létrehozásához, az objektumok élettartamának meghosszabbítása érdekében",
+    "faq_nutriscore_nutriscore": "Új Nutri-Score számítási módszer: mi az újdonság?",
+    "contact_title_pro_page": "Gyártó? Importálja termékeit Open Food Factsbe",
+    "contact_title_pro_email": "Gyártói kapcsolat",
+    "contact_title_press_page": "Sajtóoldal",
+    "contact_title_press_email": "Sajtókapcsolat",
     "contact_title_newsletter": "Iratkozzon fel hírlevelünkre",
-    "hunger_games_loading_line1": "Please give us a few seconds…",
-    "hunger_games_loading_line2": "We're downloading the questions!",
-    "hunger_games_error_label": "Argh! Something went wrong… and we couldn't load the questions.",
-    "hunger_games_error_retry_button": "Let's retry!",
-    "reorder_attribute_action": "Reorder the attributes",
+    "hunger_games_loading_line1": "Adjon nekünk pár másodpercet…",
+    "hunger_games_loading_line2": "Letöltjük a kérdéseket.",
+    "hunger_games_error_label": "Ajjaj! Hiba történt… és nem tudtuk betölteni a kérdéseket.",
+    "hunger_games_error_retry_button": "Próbáljuk újra!",
+    "reorder_attribute_action": "Attribútumok átrendezése",
     "@reorder_attribute_action": {
         "description": "An action button or a page title about reordering the attributes (e.g. 'is vegan?', 'nutrition facts', ...)"
     },
-    "link_cant_be_opened": "This link can't be opened on your device. Please check that you have a browser installed.",
+    "link_cant_be_opened": "Ez a link nem nyitható meg az eszközén. Ellenőrizze, hogy van-e telepítve böngésző.",
     "@link_cant_be_opened": {
         "description": "An error may happen if the device doesn't have a browser installed."
     },
-    "knowledge_panel_page_title_no_title": "Details for {productName}",
+    "knowledge_panel_page_title_no_title": "{productName} részletei",
     "@knowledge_panel_page_title_no_title": {
         "description": "The title of the page when we click on an item in the product page and this page is unnamed",
         "placeholders": {
@@ -3025,7 +3025,7 @@
             }
         }
     },
-    "knowledge_panel_page_title": "Details for {pageName} with {productName}",
+    "knowledge_panel_page_title": "{productName} részletei: {pageName}",
     "@knowledge_panel_page_title": {
         "description": "The title of the page when we click on an item in the product page",
         "placeholders": {
@@ -3091,19 +3091,19 @@
     "@guide_nutriscore_v2_share_message": {
         "description": "Please let empty for now (maybe use in the future)"
     },
-    "preview_badge": "Preview",
+    "preview_badge": "Előnézet",
     "@preview_badge": {
         "description": "Badge to indicate that the product is in preview mode (Be careful with this translation)"
     },
-    "prices_feedback_form": "Click here to send us your feedback about this new feature!",
+    "prices_feedback_form": "Kattintson ide, ha visszajelzést szeretne küldeni nekünk erről az új funkcióról!",
     "@prices_feedback_form": {
         "description": "A button to send feedback about the prices feature"
     },
-    "menu_button_list_actions": "Select an action",
+    "menu_button_list_actions": "Válasszon műveletet",
     "@menu_button_list_actions": {
         "description": "Button to select an action in a list (eg: Share, Delete, …)"
     },
-    "error_loading_photo": "Error loading photo",
+    "error_loading_photo": "Hiba a fénykép betöltésekor",
     "@error_loading_photo": {
         "description": "Error message when loading a photo fails to load"
     },
@@ -3111,11 +3111,11 @@
     "@photo_viewer_details_button": {
         "description": "Button to show details of the photo"
     },
-    "photo_viewer_details_button_accessibility_label": "Details of this photo",
+    "photo_viewer_details_button_accessibility_label": "Fénykép részletei",
     "@photo_viewer_details_button_accessibility_label": {
         "description": "Accessibility label for the Details button on a photo"
     },
-    "photo_viewer_details_title": "Details of the photo",
+    "photo_viewer_details_title": "Fénykép részletei",
     "@photo_viewer_details_title": {
         "description": "Title of the photo details dialog"
     },
@@ -3123,7 +3123,7 @@
     "@photo_viewer_details_contributor_title": {
         "description": "Label for the author of a photo"
     },
-    "photo_viewer_details_size_title": "Size",
+    "photo_viewer_details_size_title": "Méret",
     "@photo_viewer_details_size_title": {
         "description": "Label for the size of a photo"
     },
