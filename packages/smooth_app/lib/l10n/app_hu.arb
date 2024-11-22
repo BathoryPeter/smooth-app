@@ -1860,7 +1860,7 @@
             }
         }
     },
-    "prices_barcode_search_not_found": "Product not found",
+    "prices_barcode_search_not_found": "A termék nem található",
     "prices_barcode_search_none_yet": "Még nincs termék",
     "prices_barcode_search_running": "{barcode} keresése",
     "@prices_barcode_search_running": {
@@ -3054,7 +3054,7 @@
     "@guide_nutriscore_v2_file_language": {
         "description": "The logo is only available in de/en/fr/ln/nl. Please use en if not available (in lowercase, please)."
     },
-    "guide_nutriscore_v2_what_is_nutriscore_title": "What is the Nutri-Score?",
+    "guide_nutriscore_v2_what_is_nutriscore_title": "Mi az a Nutri-Score?",
     "guide_nutriscore_v2_what_is_nutriscore_paragraph1": "The Nutri-Score is a logo which aims to inform you about the **nutritional quality of foods**.",
     "@guide_nutriscore_v2_what_is_nutriscore_paragraph1": {
         "description": "Text between asterisks (eg: **My Text**) means text in bold. Please try to keep it."
